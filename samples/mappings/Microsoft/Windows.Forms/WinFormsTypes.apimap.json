@@ -1,0 +1,301 @@
+﻿{
+  "Microsoft.Reporting.WinForms.ReportViewer": {
+    "kind": "type",
+    "state": "Removed",
+    "needsManualUpgrade": true
+  },
+  "System.Windows.Forms.StatusBar": {
+    "kind": "type",
+    "state": "Replaced",
+    "needsManualUpgrade": true,
+    "messageId": "ApiReplacedCommentWithUrl",
+    "messageParams": [ "StatusBar", "StatusStrip", "https://docs.microsoft.com/en-us/dotnet/core/compatibility/windows-forms/5.0/winforms-deprecated-controls" ],
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/core/compatibility/windows-forms/5.0/winforms-deprecated-controls"
+  },
+  "System.Windows.Forms.StatusBarDrawItemEventArgs": {
+    "kind": "type",
+    "state": "Replaced",
+    "needsManualUpgrade": true,
+    "messageId": "ApiReplacedCommentWithUrl",
+    "messageParams": [ "StatusBar", "StatusStrip", "https://docs.microsoft.com/en-us/dotnet/core/compatibility/windows-forms/5.0/winforms-deprecated-controls" ],
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/core/compatibility/windows-forms/5.0/winforms-deprecated-controls"
+  },
+  "System.Windows.Forms.StatusBarDrawItemEventHandler": {
+    "kind": "type",
+    "state": "Replaced",
+    "needsManualUpgrade": true,
+    "messageId": "ApiReplacedCommentWithUrl",
+    "messageParams": [ "StatusBar", "StatusStrip", "https://docs.microsoft.com/en-us/dotnet/core/compatibility/windows-forms/5.0/winforms-deprecated-controls" ],
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/core/compatibility/windows-forms/5.0/winforms-deprecated-controls"
+  },
+  "System.Windows.Forms.StatusBarPanel": {
+    "kind": "type",
+    "state": "Replaced",
+    "needsManualUpgrade": true,
+    "messageId": "ApiReplacedCommentWithUrl",
+    "messageParams": [ "StatusBarPanel", "ToolStripStatusLabel", "https://docs.microsoft.com/en-us/dotnet/core/compatibility/windows-forms/5.0/winforms-deprecated-controls" ],
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/core/compatibility/windows-forms/5.0/winforms-deprecated-controls"
+  },
+  "System.Windows.Forms.StatusBarPanelAutoSize": {
+    "kind": "type",
+    "state": "Replaced",
+    "needsManualUpgrade": true,
+    "messageId": "ApiReplacedCommentWithUrl",
+    "messageParams": [ "StatusBarPanel", "ToolStripStatusLabel", "https://docs.microsoft.com/en-us/dotnet/core/compatibility/windows-forms/5.0/winforms-deprecated-controls" ],
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/core/compatibility/windows-forms/5.0/winforms-deprecated-controls"
+  },
+  "System.Windows.Forms.StatusBarPanelBorderStyle": {
+    "kind": "type",
+    "state": "Replaced",
+    "needsManualUpgrade": true,
+    "messageId": "ApiReplacedCommentWithUrl",
+    "messageParams": [ "StatusBarPanel", "ToolStripStatusLabel", "https://docs.microsoft.com/en-us/dotnet/core/compatibility/windows-forms/5.0/winforms-deprecated-controls" ],
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/core/compatibility/windows-forms/5.0/winforms-deprecated-controls"
+  },
+  "System.Windows.Forms.StatusBarPanelClickEventArgs": {
+    "kind": "type",
+    "state": "Replaced",
+    "needsManualUpgrade": true,
+    "messageId": "ApiReplacedCommentWithUrl",
+    "messageParams": [ "StatusBarPanel", "ToolStripStatusLabel", "https://docs.microsoft.com/en-us/dotnet/core/compatibility/windows-forms/5.0/winforms-deprecated-controls" ],
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/core/compatibility/windows-forms/5.0/winforms-deprecated-controls"
+  },
+  "System.Windows.Forms.StatusBarPanelClickEventHandler": {
+    "kind": "type",
+    "state": "Replaced",
+    "needsManualUpgrade": true,
+    "messageId": "ApiReplacedCommentWithUrl",
+    "messageParams": [ "StatusBarPanel", "ToolStripStatusLabel", "https://docs.microsoft.com/en-us/dotnet/core/compatibility/windows-forms/5.0/winforms-deprecated-controls" ],
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/core/compatibility/windows-forms/5.0/winforms-deprecated-controls"
+  },
+  "System.Windows.Forms.StatusBarPanelStyle": {
+    "kind": "type",
+    "state": "Replaced",
+    "needsManualUpgrade": true,
+    "messageId": "ApiReplacedCommentWithUrl",
+    "messageParams": [ "StatusBarPanel", "ToolStripStatusLabel", "https://docs.microsoft.com/en-us/dotnet/core/compatibility/windows-forms/5.0/winforms-deprecated-controls" ],
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/core/compatibility/windows-forms/5.0/winforms-deprecated-controls"
+  },
+  "System.Windows.Forms.ContextMenu": {
+    "kind": "type",
+    "state": "Replaced",
+    "needsManualUpgrade": true,
+    "messageId": "ApiReplacedCommentWithUrl",
+    "messageParams": [ "ContextMenu", "ContextMenuStrip", "https://docs.microsoft.com/en-us/dotnet/core/compatibility/winforms#removed-controls" ],
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/core/compatibility/winforms#removed-controls"
+  },
+  "System.Windows.Forms.GridColumnStylesCollection": {
+    "kind": "type",
+    "state": "Replaced",
+    "needsManualUpgrade": true,
+    "messageId": "ApiReplacedCommentWithUrl",
+    "messageParams": [ "DataGrid", "DataGridView", "https://docs.microsoft.com/en-us/dotnet/core/compatibility/winforms#removed-controls" ],
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/core/compatibility/winforms#removed-controls"
+  },
+  "System.Windows.Forms.GridTablesFactory": {
+    "kind": "type",
+    "state": "Replaced",
+    "needsManualUpgrade": true,
+    "messageId": "ApiReplacedCommentWithUrl",
+    "messageParams": [ "DataGrid", "DataGridView", "https://docs.microsoft.com/en-us/dotnet/core/compatibility/winforms#removed-controls" ],
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/core/compatibility/winforms#removed-controls"
+  },
+  "System.Windows.Forms.GridTableStylesCollection": {
+    "kind": "type",
+    "state": "Replaced",
+    "needsManualUpgrade": true,
+    "messageId": "ApiReplacedCommentWithUrl",
+    "messageParams": [ "DataGrid", "DataGridView", "https://docs.microsoft.com/en-us/dotnet/core/compatibility/winforms#removed-controls" ],
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/core/compatibility/winforms#removed-controls"
+  },
+  "System.Windows.Forms.IDataGridEditingService": {
+    "kind": "type",
+    "state": "Replaced",
+    "needsManualUpgrade": true,
+    "messageId": "ApiReplacedCommentWithUrl",
+    "messageParams": [ "DataGrid", "DataGridView", "https://docs.microsoft.com/en-us/dotnet/core/compatibility/winforms#removed-controls" ],
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/core/compatibility/winforms#removed-controls"
+  },
+  "System.Windows.Forms.DataGrid": {
+    "kind": "type",
+    "state": "Replaced",
+    "needsManualUpgrade": true,
+    "messageId": "ApiReplacedCommentWithUrl",
+    "messageParams": [ "DataGrid", "DataGridView", "https://docs.microsoft.com/en-us/dotnet/core/compatibility/winforms#removed-controls" ],
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/core/compatibility/winforms#removed-controls"
+  },
+  "System.Windows.Forms.DataGrid.HitTestType": {
+    "kind": "type",
+    "state": "Replaced",
+    "needsManualUpgrade": true,
+    "messageId": "ApiReplacedCommentWithUrl",
+    "messageParams": [ "DataGrid", "DataGridView", "https://docs.microsoft.com/en-us/dotnet/core/compatibility/winforms#removed-controls" ],
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/core/compatibility/winforms#removed-controls"
+  },
+  "System.Windows.Forms.DataGridBoolColumn": {
+    "kind": "type",
+    "state": "Replaced",
+    "needsManualUpgrade": true,
+    "messageId": "ApiReplacedCommentWithUrl",
+    "messageParams": [ "DataGrid", "DataGridView", "https://docs.microsoft.com/en-us/dotnet/core/compatibility/winforms#removed-controls" ],
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/core/compatibility/winforms#removed-controls"
+  },
+  "System.Windows.Forms.DataGridCell": {
+    "kind": "type",
+    "state": "Replaced",
+    "needsManualUpgrade": true,
+    "messageId": "ApiReplacedCommentWithUrl",
+    "messageParams": [ "DataGrid", "DataGridView", "https://docs.microsoft.com/en-us/dotnet/core/compatibility/winforms#removed-controls" ],
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/core/compatibility/winforms#removed-controls"
+  },
+  "System.Windows.Forms.DataGridColumnStyle": {
+    "kind": "type",
+    "state": "Replaced",
+    "needsManualUpgrade": true,
+    "messageId": "ApiReplacedCommentWithUrl",
+    "messageParams": [ "DataGrid", "DataGridView", "https://docs.microsoft.com/en-us/dotnet/core/compatibility/winforms#removed-controls" ],
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/core/compatibility/winforms#removed-controls"
+  },
+  "System.Windows.Forms.DataGridLineStyle": {
+    "kind": "type",
+    "state": "Replaced",
+    "needsManualUpgrade": true,
+    "messageId": "ApiReplacedCommentWithUrl",
+    "messageParams": [ "DataGrid", "DataGridView", "https://docs.microsoft.com/en-us/dotnet/core/compatibility/winforms#removed-controls" ],
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/core/compatibility/winforms#removed-controls"
+  },
+  "System.Windows.Forms.DataGridParentRowsLabelStyle": {
+    "kind": "type",
+    "state": "Replaced",
+    "needsManualUpgrade": true,
+    "messageId": "ApiReplacedCommentWithUrl",
+    "messageParams": [ "DataGrid", "DataGridView", "https://docs.microsoft.com/en-us/dotnet/core/compatibility/winforms#removed-controls" ],
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/core/compatibility/winforms#removed-controls"
+  },
+  "System.Windows.Forms.DataGridPreferredColumnWidthTypeConverter": {
+    "kind": "type",
+    "state": "Replaced",
+    "needsManualUpgrade": true,
+    "messageId": "ApiReplacedCommentWithUrl",
+    "messageParams": [ "DataGrid", "DataGridView", "https://docs.microsoft.com/en-us/dotnet/core/compatibility/winforms#removed-controls" ],
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/core/compatibility/winforms#removed-controls"
+  },
+  "System.Windows.Forms.DataGridTableStyle": {
+    "kind": "type",
+    "state": "Replaced",
+    "needsManualUpgrade": true,
+    "messageId": "ApiReplacedCommentWithUrl",
+    "messageParams": [ "DataGrid", "DataGridView", "https://docs.microsoft.com/en-us/dotnet/core/compatibility/winforms#removed-controls" ],
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/core/compatibility/winforms#removed-controls"
+  },
+  "System.Windows.Forms.DataGridTextBox": {
+    "kind": "type",
+    "state": "Replaced",
+    "needsManualUpgrade": true,
+    "messageId": "ApiReplacedCommentWithUrl",
+    "messageParams": [ "DataGrid", "DataGridView", "https://docs.microsoft.com/en-us/dotnet/core/compatibility/winforms#removed-controls" ],
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/core/compatibility/winforms#removed-controls"
+  },
+  "System.Windows.Forms.DataGridTextBoxColumn": {
+    "kind": "type",
+    "state": "Replaced",
+    "needsManualUpgrade": true,
+    "messageId": "ApiReplacedCommentWithUrl",
+    "messageParams": [ "DataGrid", "DataGridView", "https://docs.microsoft.com/en-us/dotnet/core/compatibility/winforms#removed-controls" ],
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/core/compatibility/winforms#removed-controls"
+  },
+  "System.Windows.Forms.MainMenu": {
+    "kind": "type",
+    "state": "Replaced",
+    "needsManualUpgrade": true,
+    "messageId": "ApiReplacedCommentWithUrl",
+    "messageParams": [ "MainMenu", "MenuStrip", "https://docs.microsoft.com/en-us/dotnet/core/compatibility/winforms#removed-controls" ],
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/core/compatibility/winforms#removed-controls"
+  },
+  "System.Windows.Forms.Menu": {
+    "kind": "type",
+    "state": "Replaced",
+    "needsManualUpgrade": true,
+    "messageId": "ApiReplacedCommentWithUrl",
+    "messageParams": [ "Menu", "ToolStripDropDown", "https://docs.microsoft.com/en-us/dotnet/core/compatibility/winforms#removed-controls" ],
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/core/compatibility/winforms#removed-controls"
+  },
+  "System.Windows.Forms.Menu.MenuItemCollection": {
+    "kind": "type",
+    "state": "Replaced",
+    "needsManualUpgrade": true,
+    "messageId": "ApiReplacedCommentWithUrl",
+    "messageParams": [ "Menu", "ToolStripDropDown", "https://docs.microsoft.com/en-us/dotnet/core/compatibility/winforms#removed-controls" ],
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/core/compatibility/winforms#removed-controls"
+  },
+  "System.Windows.Forms.MenuItem": {
+    "kind": "type",
+    "state": "Replaced",
+    "needsManualUpgrade": true,
+    "messageId": "ApiReplacedCommentWithUrl",
+    "messageParams": [ "MenuItem", "ToolStripMenuItem", "https://docs.microsoft.com/en-us/dotnet/core/compatibility/winforms#removed-controls" ],
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/core/compatibility/winforms#removed-controls"
+  },
+  "System.Windows.Forms.ToolBar": {
+    "kind": "type",
+    "state": "Replaced",
+    "needsManualUpgrade": true,
+    "messageId": "ApiReplacedCommentWithUrl",
+    "messageParams": [ "ToolBar", "ToolStrip", "https://docs.microsoft.com/en-us/dotnet/core/compatibility/winforms#removed-controls" ],
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/core/compatibility/winforms#removed-controls"
+  },
+  "System.Windows.Forms.ToolBar.ToolBarButtonCollection": {
+    "kind": "type",
+    "state": "Replaced",
+    "needsManualUpgrade": true,
+    "messageId": "ApiReplacedCommentWithUrl",
+    "messageParams": [ "ToolBar", "ToolStrip", "https://docs.microsoft.com/en-us/dotnet/core/compatibility/winforms#removed-controls" ],
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/core/compatibility/winforms#removed-controls"
+  },
+  "System.Windows.Forms.ToolBarAppearance": {
+    "kind": "type",
+    "state": "Replaced",
+    "needsManualUpgrade": true,
+    "messageId": "ApiReplacedCommentWithUrl",
+    "messageParams": [ "ToolBar", "ToolStrip", "https://docs.microsoft.com/en-us/dotnet/core/compatibility/winforms#removed-controls" ],
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/core/compatibility/winforms#removed-controls"
+  },
+  "System.Windows.Forms.ToolBarButton": {
+    "kind": "type",
+    "state": "Replaced",
+    "needsManualUpgrade": true,
+    "messageId": "ApiReplacedCommentWithUrl",
+    "messageParams": [ "ToolBarButton", "ToolStripButton", "https://docs.microsoft.com/en-us/dotnet/core/compatibility/winforms#removed-controls" ],
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/core/compatibility/winforms#removed-controls"
+  },
+  "System.Windows.Forms.ToolBarButtonClickEventArgs": {
+    "kind": "type",
+    "state": "Replaced",
+    "needsManualUpgrade": true,
+    "messageId": "ApiReplacedCommentWithUrl",
+    "messageParams": [ "ToolBarButton", "ToolStripButton", "https://docs.microsoft.com/en-us/dotnet/core/compatibility/winforms#removed-controls" ],
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/core/compatibility/winforms#removed-controls"
+  },
+  "System.Windows.Forms.ToolBarButtonStyle": {
+    "kind": "type",
+    "state": "Replaced",
+    "needsManualUpgrade": true,
+    "messageId": "ApiReplacedCommentWithUrl",
+    "messageParams": [ "ToolBarButton", "ToolStripButton", "https://docs.microsoft.com/en-us/dotnet/core/compatibility/winforms#removed-controls" ],
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/core/compatibility/winforms#removed-controls"
+  },
+  "System.Windows.Forms.ToolBarTextAlign": {
+    "kind": "type",
+    "state": "Replaced",
+    "needsManualUpgrade": true,
+    "messageId": "ApiReplacedCommentWithUrl",
+    "messageParams": [ "ToolBarButton", "ToolStripButton", "https://docs.microsoft.com/en-us/dotnet/core/compatibility/winforms#removed-controls" ],
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/core/compatibility/winforms#removed-controls"
+  },
+  "System.Windows.Forms.Design.IMenuEditorService": {
+    "kind": "type",
+    "state": "Removed",
+    "needsManualUpgrade": true,
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/core/compatibility/winforms#removed-controls"
+  }
+}

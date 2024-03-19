@@ -1,0 +1,138 @@
+﻿{
+  "packages": [
+
+    // Xamarin Legacy Packages
+    {
+      "name": "Xamarin.Forms"
+    },
+    {
+      "name": "Xamarin.Essentials"
+    },
+
+    // Xamarin.Android Support Packages
+    {
+      "name": "Xamarin.Android.Support.*"
+    },
+
+    // Xamarin.Android Arch Packages
+    {
+      "name": "Xamarin.Android.Arch.*"
+    },
+    {
+      "name": "Xamarin.Android.Support.Dynamic.Animation"
+    },
+
+    // Microsoft.AppCenter Packages
+    {
+      "name": "Microsoft.AppCenter",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [
+          {
+            "name": "Microsoft.AppCenter",
+            "version": "5.*"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Microsoft.AppCenter.*",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [
+          {
+            "version": "5.*"
+          }
+        ]
+      }
+    },
+
+    // Community Toolkit
+    {
+      "name": "Xamarin.CommunityToolkit",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [
+          {
+            "name": "CommunityToolkit.Maui",
+            "version": "2.*"
+          }
+        ],
+        ".NETCoreApp,Version=v7.0": [
+          {
+            "name": "CommunityToolkit.Maui",
+            "version": "5.*"
+          }
+        ],
+        ".NETCoreApp,Version=v8.0": [
+          {
+            "name": "CommunityToolkit.Maui",
+            "prerelease": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "Xamarin.CommunityToolkit.Markup",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [
+          {
+            "name": "CommunityToolkit.Maui.Markup",
+            "version": "1.*"
+          }
+        ],
+        ".NETCoreApp,Version=v7.0": [
+          {
+            "name": "CommunityToolkit.Maui.Markup",
+            "version": "3.*"
+          }
+        ],
+        ".NETCoreApp,Version=v8.0": [
+          {
+            "name": "CommunityToolkit.Maui.Markup",
+            "prerelease": true
+          }
+        ]
+      }
+    },
+
+    // Maps
+    {
+      "name": "Xamarin.Forms.Maps",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [
+          {
+          }
+        ],
+        ".NETCoreApp,Version=v7.0": [
+          {
+            "name": "Microsoft.Maui.Controls.Maps",
+            "version": "7.*"
+          }
+        ],
+        ".NETCoreApp,Version=v8.0": [
+          {
+            "name": "Microsoft.Maui.Controls.Maps",
+            "version": "8.*",
+            "prerelease": true
+          }
+        ]
+      }
+    },
+
+    // SkiaSharp
+    {
+      "name": "SkiaSharp.Views.Forms",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [
+          {
+            "name": "SkiaSharp.Views.Maui.Core"
+          },
+          {
+            "name": "SkiaSharp.Views.Maui.Controls"
+          },
+          {
+            "name": "SkiaSharp.Views.Maui.Controls.Compatibility"
+          }
+        ]
+      }
+    }
+  ]
+}

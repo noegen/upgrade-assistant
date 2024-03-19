@@ -1,0 +1,21 @@
+﻿{
+  "packages": [
+    {
+      "name": "System.Windows.Forms.DataVisualization",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [
+          {
+            "name": "System.Windows.Forms.DataVisualization",
+            "version": "1.0.0-prerelease.20110.1"
+          }
+        ],
+        ".NETStandard,Version=v2.0": [
+          {
+            "name": "System.Windows.Forms.DataVisualization",
+            "version": "1.0.0-prerelease.20110.1"
+          }
+        ]
+      }
+    }
+  ]
+}

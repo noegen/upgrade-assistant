@@ -1,0 +1,10 @@
+﻿{
+  "System.Deployment.Application.*": {
+    "kind": "namespace",
+    "state": "Removed",
+    "needsManualUpgrade": true,
+    "messageId": "ClickOnceNamespaceCommentWithUrl",
+    "messageParams": [ "System.Deployment.Application", "https://github.com/dotnet/deployment-tools/issues/27", "https://github.com/dotnet/deployment-tools/issues/53" ],
+    "documentationUrl": "https://github.com/dotnet/deployment-tools/issues/27"
+  }
+}

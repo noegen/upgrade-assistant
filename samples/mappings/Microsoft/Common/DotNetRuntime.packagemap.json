@@ -1,0 +1,1870 @@
+﻿{
+  "defaults": {
+    "frameworks": {
+      ".NETCoreApp,Version=v6.0": [
+        {
+          "version": "6.*"
+        }
+      ],
+      ".NETCoreApp,Version=v7.0": [
+        {
+          "version": "7.*"
+        }
+      ],
+      ".NETCoreApp,Version=v8.0": [
+        {
+          "version": "8.*"
+        }
+      ],
+      ".NETCoreApp,Version=v9.0": [
+        {
+          "version": "9.*",
+          "prerelease": true
+        }
+      ],
+      ".NETStandard,Version=v2.0": [
+        {
+          "version": ""
+        }
+      ]
+    }
+  },
+  "packages": [
+    {
+      "name": "dotnet-ilverify",
+      "frameworks": {
+        ".NETCoreApp,Version=v8.0": [
+          {
+            "version": "8.*"
+          }
+        ],
+        ".NETCoreApp,Version=v9.0": [
+          {
+            "version": "9.*",
+            "prerelease": true
+          }
+        ],
+        ".NETStandard,Version=v2.0": [
+          {
+            "version": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "Microsoft.Bcl.AsyncInterfaces",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [
+          {
+            "version": "6.*"
+          }
+        ],
+        ".NETCoreApp,Version=v7.0": [
+          {
+            "version": "7.*"
+          }
+        ],
+        ".NETCoreApp,Version=v8.0": [
+          {
+            "version": "8.*"
+          }
+        ],
+        ".NETCoreApp,Version=v9.0": [
+          {
+            "version": "9.*",
+            "prerelease": true
+          }
+        ],
+        ".NETFramework,Version=v4.5": [
+          {
+            "version": "9.*",
+            "prerelease": true
+          }
+        ],
+        ".NETStandard,Version=v2.0": [
+          {
+            "version": ""
+          }
+        ],
+        ".NETStandard,Version=v2.1": []
+      }
+    },
+    {
+      "name": "Microsoft.Bcl.Cryptography",
+      "frameworks": {
+        ".NETCoreApp,Version=v8.0": [
+          {
+            "version": "8.*"
+          }
+        ],
+        ".NETCoreApp,Version=v9.0": [
+          {
+            "version": "9.*",
+            "prerelease": true
+          }
+        ],
+        ".NETFramework,Version=v4.5": [
+          {
+            "version": "9.*",
+            "prerelease": true
+          }
+        ],
+        ".NETStandard,Version=v2.0": [
+          {
+            "version": "",
+            "prerelease": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "Microsoft.Bcl.HashCode",
+      "frameworks": {
+        ".NETCoreApp,Version=v8.0": [
+          {
+            "version": ""
+          }
+        ],
+        ".NETFramework,Version=v4.5": [
+          {
+            "version": ""
+          }
+        ],
+        ".NETStandard,Version=v2.0": [
+          {
+            "version": ""
+          }
+        ],
+        ".NETStandard,Version=v2.1": []
+      }
+    },
+    {
+      "name": "Microsoft.Bcl.Numerics",
+      "frameworks": {
+        ".NETCoreApp,Version=v8.0": [
+          {
+            "version": "8.*"
+          }
+        ],
+        ".NETCoreApp,Version=v9.0": [
+          {
+            "version": "9.*",
+            "prerelease": true
+          }
+        ],
+        ".NETStandard,Version=v2.0": [
+          {
+            "version": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "Microsoft.Bcl.TimeProvider",
+      "frameworks": {
+        ".NETCoreApp,Version=v8.0": [
+          {
+            "version": "8.*"
+          }
+        ],
+        ".NETCoreApp,Version=v9.0": [
+          {
+            "version": "9.*",
+            "prerelease": true
+          }
+        ],
+        ".NETStandard,Version=v2.0": [
+          {
+            "version": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "Microsoft.CSharp",
+      "frameworks": {
+        ".NETStandard,Version=v2.0": [
+          {
+            "version": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "Microsoft.Diagnostics.Tracing.EventSource.Redist",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [
+          {
+            "version": "6.*"
+          }
+        ],
+        ".NETCoreApp,Version=v7.0": [],
+        ".NETCoreApp,Version=v8.0": [],
+        ".NETFramework,Version=v4.5": [
+          {
+            "version": ""
+          }
+        ],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "Microsoft.DotNet.ILCompiler",
+      "frameworks": {
+        ".NETCoreApp,Version=v7.0": [
+          {
+            "version": "7.*"
+          }
+        ],
+        ".NETCoreApp,Version=v8.0": [
+          {
+            "version": "8.*"
+          }
+        ],
+        ".NETCoreApp,Version=v9.0": [
+          {
+            "version": "9.*",
+            "prerelease": true
+          }
+        ],
+        ".NETStandard,Version=v2.0": [
+          {
+            "version": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "Microsoft.Extensions.Caching.Abstractions"
+    },
+    {
+      "name": "Microsoft.Extensions.Caching.Memory"
+    },
+    {
+      "name": "Microsoft.Extensions.Configuration"
+    },
+    {
+      "name": "Microsoft.Extensions.Configuration.Abstractions"
+    },
+    {
+      "name": "Microsoft.Extensions.Configuration.Binder"
+    },
+    {
+      "name": "Microsoft.Extensions.Configuration.CommandLine"
+    },
+    {
+      "name": "Microsoft.Extensions.Configuration.EnvironmentVariables"
+    },
+    {
+      "name": "Microsoft.Extensions.Configuration.FileExtensions"
+    },
+    {
+      "name": "Microsoft.Extensions.Configuration.Ini"
+    },
+    {
+      "name": "Microsoft.Extensions.Configuration.Json"
+    },
+    {
+      "name": "Microsoft.Extensions.Configuration.UserSecrets"
+    },
+    {
+      "name": "Microsoft.Extensions.Configuration.Xml"
+    },
+    {
+      "name": "Microsoft.Extensions.DependencyInjection"
+    },
+    {
+      "name": "Microsoft.Extensions.DependencyInjection.Abstractions"
+    },
+    {
+      "name": "Microsoft.Extensions.DependencyInjection.Specification.Tests"
+    },
+    {
+      "name": "Microsoft.Extensions.DependencyModel"
+    },
+    {
+      "name": "Microsoft.Extensions.Diagnostics",
+      "frameworks": {
+        ".NETCoreApp,Version=v8.0": [
+          {
+            "version": "8.*"
+          }
+        ],
+        ".NETCoreApp,Version=v9.0": [
+          {
+            "version": "9.*",
+            "prerelease": true
+          }
+        ],
+        ".NETStandard,Version=v2.0": [
+          {
+            "version": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "Microsoft.Extensions.Diagnostics.Abstractions",
+      "frameworks": {
+        ".NETCoreApp,Version=v8.0": [
+          {
+            "version": "8.*"
+          }
+        ],
+        ".NETCoreApp,Version=v9.0": [
+          {
+            "version": "9.*",
+            "prerelease": true
+          }
+        ],
+        ".NETStandard,Version=v2.0": [
+          {
+            "version": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "Microsoft.Extensions.FileProviders.Abstractions"
+    },
+    {
+      "name": "Microsoft.Extensions.FileProviders.Composite"
+    },
+    {
+      "name": "Microsoft.Extensions.FileProviders.Physical"
+    },
+    {
+      "name": "Microsoft.Extensions.FileSystemGlobbing"
+    },
+    {
+      "name": "Microsoft.Extensions.Hosting"
+    },
+    {
+      "name": "Microsoft.Extensions.Hosting.Abstractions"
+    },
+    {
+      "name": "Microsoft.Extensions.Hosting.Systemd"
+    },
+    {
+      "name": "Microsoft.Extensions.Hosting.WindowsServices"
+    },
+    {
+      "name": "Microsoft.Extensions.Http"
+    },
+    {
+      "name": "Microsoft.Extensions.Logging"
+    },
+    {
+      "name": "Microsoft.Extensions.Logging.Abstractions"
+    },
+    {
+      "name": "Microsoft.Extensions.Logging.Configuration"
+    },
+    {
+      "name": "Microsoft.Extensions.Logging.Console"
+    },
+    {
+      "name": "Microsoft.Extensions.Logging.Debug"
+    },
+    {
+      "name": "Microsoft.Extensions.Logging.EventLog"
+    },
+    {
+      "name": "Microsoft.Extensions.Logging.EventSource"
+    },
+    {
+      "name": "Microsoft.Extensions.Logging.TraceSource"
+    },
+    {
+      "name": "Microsoft.Extensions.Options"
+    },
+    {
+      "name": "Microsoft.Extensions.Options.ConfigurationExtensions"
+    },
+    {
+      "name": "Microsoft.Extensions.Options.DataAnnotations"
+    },
+    {
+      "name": "Microsoft.Extensions.Primitives"
+    },
+    {
+      "name": "Microsoft.ILVerification"
+    },
+    {
+      "name": "Microsoft.IO.Redist",
+      "frameworks": {
+        ".NETFramework,Version=v4.5": [
+          {
+            "version": ""
+          }
+        ],
+        ".NETCoreApp,Version=v6.0": [
+          {
+            "version": "6.0.0"
+          }
+        ],
+        ".NETStandard,Version=v2.0": [
+          {
+            "version": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "Microsoft.NET.ILLink",
+      "frameworks": {
+        ".NETCoreApp,Version=v8.0": [
+          {
+            "version": "8.*",
+            "prerelease": true
+          }
+        ],
+        ".NETCoreApp,Version=v9.0": [],
+        ".NETStandard,Version=v2.0": [
+          {
+            "version": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "Microsoft.NET.ILLink.Tasks",
+      "frameworks": {
+        ".NETCoreApp,Version=v8.0": [
+          {
+            "version": "8.*"
+          }
+        ],
+        ".NETCoreApp,Version=v9.0": [
+          {
+            "version": "9.*",
+            "prerelease": true
+          }
+        ],
+        ".NETStandard,Version=v2.0": [
+          {
+            "version": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "Microsoft.NET.ILLink.Analyzers",
+      "frameworks": {
+        ".NETCoreApp,Version=v7.0": [
+          {
+            "version": "",
+            "prerelease": true
+          }
+        ],
+        ".NETStandard,Version=v2.0": [
+          {
+            "version": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "Microsoft.NET.WebAssembly.Threading",
+      "frameworks": {
+        ".NETCoreApp,Version=v8.0": [
+          {
+            "version": "8.*"
+          }
+        ],
+        ".NETCoreApp,Version=v9.0": [
+          {
+            "version": "9.*",
+            "prerelease": true
+          }
+        ],
+        ".NETStandard,Version=v2.0": [
+          {
+            "version": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "Microsoft.NET.Sdk.IL"
+    },
+    {
+      "name": "Microsoft.NETCore.ILAsm"
+    },
+    {
+      "name": "Microsoft.NETCore.ILDAsm"
+    },
+    {
+      "name": "Microsoft.NETCore.Platforms",
+      "frameworks": {
+        ".NETCoreApp,Version=v8.0": [
+          {
+            "version": "8.*",
+            "prerelease": true
+          }
+        ],
+        ".NETCoreApp,Version=v9.0": [],
+        ".NETStandard,Version=v2.0": [
+          {
+            "version": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "Microsoft.NETCore.Platforms.Future",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "Microsoft.NETCore.TestHost",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [
+          {
+            "version": "6.*"
+          }
+        ],
+        ".NETCoreApp,Version=v7.0": [],
+        ".NETStandard,Version=v2.0": [
+          {
+            "version": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "Microsoft.TemplateEngine.Abstractions"
+    },
+    {
+      "name": "Microsoft.TemplateEngine.Authoring.CLI",
+      "frameworks": {
+        ".NETCoreApp,Version=v8.0": [
+          {
+            "version": "8.*"
+          }
+        ],
+        ".NETCoreApp,Version=v9.0": [
+          {
+            "version": "9.*",
+            "prerelease": true
+          }
+        ],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "Microsoft.TemplateEngine.Authoring.Tasks"
+    },
+    {
+      "name": "Microsoft.TemplateEngine.Authoring.Templates",
+      "frameworks": {
+        ".NETCoreApp,Version=v8.0": [
+          {
+            "version": "8.*"
+          }
+        ],
+        ".NETCoreApp,Version=v9.0": [
+          {
+            "version": "9.*",
+            "prerelease": true
+          }
+        ],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "Microsoft.TemplateEngine.Authoring.TemplateVerifier"
+    },
+    {
+      "name": "Microsoft.TemplateEngine.Core"
+    },
+    {
+      "name": "Microsoft.TemplateEngine.Core.Contracts"
+    },
+    {
+      "name": "Microsoft.TemplateEngine.Edge"
+    },
+    {
+      "name": "Microsoft.TemplateEngine.IDE"
+    },
+    {
+      "name": "Microsoft.TemplateEngine.Orchestrator.RunnableProjects"
+    },
+    {
+      "name": "Microsoft.TemplateEngine.Samples"
+    },
+    {
+      "name": "Microsoft.TemplateEngine.TemplateLocalizer.Core"
+    },
+    {
+      "name": "Microsoft.TemplateEngine.Utils"
+    },
+    {
+      "name": "Microsoft.TemplateSearch.Common"
+    },
+    {
+      "name": "Microsoft.VisualBasic",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "Microsoft.Win32.Primitives",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "Microsoft.Win32.Registry",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": [
+          {
+            "version": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "Microsoft.Win32.Registry.AccessControl"
+    },
+    {
+      "name": "Microsoft.Win32.SystemEvents"
+    },
+    {
+      "name": "Microsoft.Windows.Compatibility"
+    },
+    {
+      "name": "Microsoft.Windows.Compatibility.Shims",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "Microsoft.XmlSerializer.Generator"
+    },
+    {
+      "name": "NETStandard.Library",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.AppContext",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Buffers",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETFramework,Version=v4.5": [
+          {
+            "version": ""
+          }
+        ],
+        ".NETStandard,Version=v2.0": [
+          {
+            "version": ""
+          }
+        ],
+        ".NETStandard,Version=v2.1": []
+      }
+    },
+    {
+      "name": "System.CodeDom"
+    },
+    {
+      "name": "System.Collections",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Collections.Concurrent",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Collections.Immutable"
+    },
+    {
+      "name": "System.Collections.NonGeneric",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Collections.Specialized",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.ComponentModel",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.ComponentModel.Annotations",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.ComponentModel.Composition"
+    },
+    {
+      "name": "System.ComponentModel.Composition.Registration"
+    },
+    {
+      "name": "System.ComponentModel.EventBasedAsync",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.ComponentModel.Primitives",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.ComponentModel.TypeConverter",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Composition"
+    },
+    {
+      "name": "System.Composition.AttributedModel"
+    },
+    {
+      "name": "System.Composition.Convention"
+    },
+    {
+      "name": "System.Composition.Hosting"
+    },
+    {
+      "name": "System.Composition.Runtime"
+    },
+    {
+      "name": "System.Composition.TypedParts"
+    },
+    {
+      "name": "System.Configuration.ConfigurationManager"
+    },
+    {
+      "name": "System.Console",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Data.Common",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Data.DataSetExtensions",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": [
+          {
+            "version": ""
+          }
+        ],
+        ".NETStandard,Version=v2.1": []
+      }
+    },
+    {
+      "name": "System.Data.Odbc"
+    },
+    {
+      "name": "System.Data.OleDb"
+    },
+    {
+      "name": "System.Diagnostics.Contracts",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Diagnostics.Debug",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Diagnostics.DiagnosticSource"
+    },
+    {
+      "name": "System.Diagnostics.EventLog"
+    },
+    {
+      "name": "System.Diagnostics.FileVersionInfo",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Diagnostics.PerformanceCounter"
+    },
+    {
+      "name": "System.Diagnostics.Process",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Diagnostics.StackTrace",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Diagnostics.TextWriterTraceListener",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Diagnostics.Tools",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Diagnostics.TraceSource",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Diagnostics.Tracing",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.DirectoryServices"
+    },
+    {
+      "name": "System.DirectoryServices.AccountManagement"
+    },
+    {
+      "name": "System.DirectoryServices.Protocols"
+    },
+    {
+      "name": "System.Drawing.Common"
+    },
+    {
+      "name": "System.Drawing.Primitives",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Dynamic.Runtime",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Formats.Asn1"
+    },
+    {
+      "name": "System.Formats.Cbor"
+    },
+    {
+      "name": "System.Globalization",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Globalization.Calendars",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Globalization.Extensions",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.IO",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.IO.Compression",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.IO.Compression.ZipFile",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.IO.FileSystem",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.IO.FileSystem.AccessControl",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.IO.FileSystem.DriveInfo",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.IO.FileSystem.Primitives",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.IO.FileSystem.Watcher",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.IO.Hashing"
+    },
+    {
+      "name": "System.IO.IsolatedStorage",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.IO.MemoryMappedFiles",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.IO.Packaging"
+    },
+    {
+      "name": "System.IO.Pipelines"
+    },
+    {
+      "name": "System.IO.Pipes",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.IO.Pipes.AccessControl",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.IO.Ports"
+    },
+    {
+      "name": "System.IO.UnmanagedMemoryStream",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Json",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Linq",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Linq.Expressions",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Linq.Parallel",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Linq.Queryable",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Management"
+    },
+    {
+      "name": "System.Memory",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETFramework,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": [
+          {
+            "version": ""
+          }
+        ],
+        ".NETStandard,Version=v2.1": []
+      }
+    },
+    {
+      "name": "System.Memory.Data"
+    },
+    {
+      "name": "System.Net.Http",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Net.Http.Json"
+    },
+    {
+      "name": "System.Net.Http.Rtc",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Net.Http.WinHttpHandler"
+    },
+    {
+      "name": "System.Net.NameResolution",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Net.NetworkInformation",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Net.Ping",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Net.Primitives",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Net.Requests",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Net.Security",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Net.Sockets",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Net.WebHeaderCollection",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Net.WebSockets",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Net.WebSockets.Client",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Net.WebSockets.WebSocketProtocol",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Numerics.Tensors",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [
+          {
+            "version": "6.0.0-rtm.21522.10"
+          }
+        ],
+        ".NETCoreApp,Version=v7.0": [
+          {
+            "version": "7.0.0-rtm.22518.5"
+          }
+        ],
+        ".NETCoreApp,Version=v8.0": [
+          {
+            "version": "8.*"
+          }
+        ],
+        ".NETCoreApp,Version=v9.0": [
+          {
+            "version": "9.*",
+            "prerelease": true
+          }
+        ],
+        ".NETStandard,Version=v2.0": [
+          {
+            "version": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "System.Numerics.Vectors",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": [
+          {
+            "version": ""
+          }
+        ],
+        ".NETStandard,Version=v2.1": []
+      }
+    },
+    {
+      "name": "System.Numerics.Vectors.WindowsRuntime",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.ObjectModel",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Reflection",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Reflection.Context"
+    },
+    {
+      "name": "System.Reflection.DispatchProxy",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETFramework,Version=v4.5": [
+          {
+            "version": ""
+          }
+        ],
+        ".NETStandard,Version=v2.0": [
+          {
+            "version": ""
+          }
+        ],
+        ".NETStandard,Version=v2.1": []
+      }
+    },
+    {
+      "name": "System.Reflection.Emit",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": [
+          {
+            "version": ""
+          }
+        ],
+        ".NETStandard,Version=v2.1": []
+      }
+    },
+    {
+      "name": "System.Reflection.Emit.ILGeneration",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": [
+          {
+            "version": ""
+          }
+        ],
+        ".NETStandard,Version=v2.1": []
+      }
+    },
+    {
+      "name": "System.Reflection.Emit.Lightweight",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": [
+          {
+            "version": ""
+          }
+        ],
+        ".NETStandard,Version=v2.1": []
+      }
+    },
+    {
+      "name": "System.Reflection.Extensions",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Reflection.Metadata"
+    },
+    {
+      "name": "System.Reflection.MetadataLoadContext"
+    },
+    {
+      "name": "System.Reflection.Primitives",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Reflection.TypeExtensions",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Resources.Extensions"
+    },
+    {
+      "name": "System.Resources.Reader",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Resources.ResourceManager",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Resources.Writer",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Runtime",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Runtime.Caching"
+    },
+    {
+      "name": "System.Runtime.CompilerServices.Unsafe",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [
+          {
+            "version": "6.0.0"
+          }
+        ],
+        ".NETFramework,Version=v2.0": [
+          {
+            "version": ""
+          }
+        ],
+        ".NETStandard,Version=v2.0": [
+          {
+            "version": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "System.Runtime.CompilerServices.VisualC",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Runtime.Experimental",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [
+          {
+            "version": "6.0.0"
+          }
+        ],
+        ".NETCoreApp,Version=v7.0": [],
+        ".NETCoreApp,Version=v8.0": [],
+        ".NETStandard,Version=v2.0": [
+          {
+            "version": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "System.Runtime.Extensions",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Runtime.Handlers",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Runtime.InteropServices",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Runtime.InteropServices.RuntimeInformation",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Runtime.InteropServices.WindowsRuntime",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Runtime.Intrinsics.Experimental",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Runtime.Numerics",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Runtime.Serialization.Formatters",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Runtime.Serialization.Json",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Runtime.Serialization.Primitives",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Runtime.Serialization.Schema",
+      "frameworks": {
+        ".NETCoreApp,Version=v7.0": [
+          {
+            "version": "7.*"
+          }
+        ],
+        ".NETCoreApp,Version=v8.0": [
+          {
+            "version": "8.*"
+          }
+        ],
+        ".NETCoreApp,Version=v9.0": [
+          {
+            "version": "9.*",
+            "prerelease": true
+          }
+        ],
+        ".NETStandard,Version=v2.0": [
+          {
+            "version": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "System.Runtime.Serialization.Xml",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Security.AccessControl",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [
+          {
+            "version": "6.0.0"
+          }
+        ],
+        ".NETStandard,Version=v2.0": [
+          {
+            "version": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "System.Security.Claims",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Security.Cryptography.Algorithms",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETFramework,Version=v6.0": [
+          {
+            "version": ""
+          }
+        ],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Security.Cryptography.Cng",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": [
+          {
+            "version": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "System.Security.Cryptography.Cose",
+      "frameworks": {
+        ".NETCoreApp,Version=v7.0": [
+          {
+            "version": "7.*"
+          }
+        ],
+        ".NETCoreApp,Version=v8.0": [
+          {
+            "version": "8.*"
+          }
+        ],
+        ".NETCoreApp,Version=v9.0": [
+          {
+            "version": "9.*",
+            "prerelease": true
+          }
+        ],
+        ".NETStandard,Version=v2.0": [
+          {
+            "version": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "System.Security.Cryptography.Csp",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Security.Cryptography.Encoding",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Security.Cryptography.OpenSsl",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETFramework,Version=v2.0": [
+          {
+            "version": ""
+          }
+        ],
+        ".NETStandard,Version=v2.0": [
+          {
+            "version": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "System.Security.Cryptography.Pkcs"
+    },
+    {
+      "name": "System.Security.Cryptography.Primitives",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Security.Cryptography.ProtectedData"
+    },
+    {
+      "name": "System.Security.Cryptography.X509Certificates",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Security.Cryptography.Xml"
+    },
+    {
+      "name": "System.Security.Permissions"
+    },
+    {
+      "name": "System.Security.Principal",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Security.Principal.Windows",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": [
+          {
+            "version": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "System.Security.SecureString",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.ServiceModel.Syndication"
+    },
+    {
+      "name": "System.ServiceProcess.ServiceController"
+    },
+    {
+      "name": "System.Speech"
+    },
+    {
+      "name": "System.Text.Encoding",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Text.Encoding.CodePages"
+    },
+    {
+      "name": "System.Text.Encoding.Extensions",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Text.Encodings.Web"
+    },
+    {
+      "name": "System.Text.Json"
+    },
+    {
+      "name": "System.Text.RegularExpressions",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Threading",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Threading.AccessControl"
+    },
+    {
+      "name": "System.Threading.Channels"
+    },
+    {
+      "name": "System.Text.Overlapped",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Threading.RateLimiting",
+      "frameworks": {
+        ".NETCoreApp,Version=v7.0": [
+          {
+            "version": "7.*"
+          }
+        ],
+        ".NETCoreApp,Version=v8.0": [
+          {
+            "version": "8.*"
+          }
+        ],
+        ".NETCoreApp,Version=v9.0": [
+          {
+            "version": "9.*",
+            "prerelease": true
+          }
+        ],
+        ".NETStandard,Version=v2.0": [
+          {
+            "version": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "System.Threading.Tasks",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Threading.Tasks.Dataflow"
+    },
+    {
+      "name": "System.Threading.Tasks.Extensions",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": [
+          {
+            "version": ""
+          }
+        ],
+        ".NETStandard,Version=v2.1": []
+      }
+    },
+    {
+      "name": "System.Threading.Tasks.Parallel",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Threading.Thread",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Threading.ThreadPool",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Threading.Timer",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.ValueTuple",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": [],
+        ".NETFramework,Version=v4.5": [
+          {
+            "version": ""
+          }
+        ],
+        ".NETFramework,Version=v4.7": []
+      }
+    },
+    {
+      "name": "System.Windows.Extensions"
+    },
+    {
+      "name": "System.Xml.ReaderWriter",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Xml.XDocument",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Xml.XmlDocument",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Xml.XmlSerializer",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Xml.XPath",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Xml.XPath.XDocument",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    },
+    {
+      "name": "System.Xml.XPath.XmlDocument",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [],
+        ".NETStandard,Version=v2.0": []
+      }
+    }
+  ]
+}

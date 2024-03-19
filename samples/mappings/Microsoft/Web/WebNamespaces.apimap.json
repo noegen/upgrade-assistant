@@ -1,0 +1,34 @@
+﻿{
+  "Microsoft.AspNet.*": {
+    "kind": "namespace",
+    "state": "Removed"
+  },
+  "Microsoft.Owin.*": {
+    "kind": "namespace",
+    "state": "Removed"
+  },
+  "System.Web.Mvc.*": {
+    "kind": "namespace",
+    "state": "Removed"
+  },
+  "System.Web.Http.*": {
+    "kind": "namespace",
+    "state": "Removed"
+  },
+  "System.Web.WebPages.*": {
+    "kind": "namespace",
+    "state": "Removed"
+  },
+  "System.Web.Helpers.*": {
+    "kind": "namespace",
+    "state": "Removed"
+  },
+  "System.Web.Razor.*": {
+    "kind": "namespace",
+    "state": "Removed"
+  },
+  "Owin.*": {
+    "kind": "namespace",
+    "state": "Removed"
+  }
+}

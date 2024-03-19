@@ -1,0 +1,241 @@
+﻿{
+  "System.Web.Mvc.ActionExecutedContext": {
+    "value": "Microsoft.AspNetCore.Mvc.Filters.ActionExecutedContext",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "System.Web.Mvc.ActionExecutingContext": {
+    "value": "Microsoft.AspNetCore.Mvc.Filters.ActionExecutingContext",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "System.Web.Mvc.ActionFilterAttribute": {
+    "value": "Microsoft.AspNetCore.Mvc.Filters.ActionFilterAttribute",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "System.Web.Mvc.ActionNameAttribute": {
+    "value": "Microsoft.AspNetCore.Mvc.ActionNameAttribute",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "System.Web.Mvc.ActionResult": {
+    "value": "Microsoft.AspNetCore.Mvc.ActionResult",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "System.Web.Mvc.AllowAnonymousAttribute": {
+    "value": "Microsoft.AspNetCore.Mvc.AllowAnonymousAttribute",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "System.Web.Mvc.AllowHtmlAttribute": {
+    "kind": "type",
+    "state": "Removed"
+  },
+  "System.Web.Mvc.AuthorizeAttribute": {
+    "value": "Microsoft.AspNetCore.Authorization.AuthorizeAttribute",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "System.Web.Mvc.ContentResult": {
+    "value": "Microsoft.AspNetCore.Mvc.ContentResult",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "System.Web.Mvc.Controller": {
+    "value": "Microsoft.AspNetCore.Mvc.Controller",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "System.Web.Mvc.FileResult": {
+    "value": "Microsoft.AspNetCore.Mvc.FileResult",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "System.Web.Mvc.HttpGetAttribute": {
+    "value": "Microsoft.AspNetCore.Mvc.HttpGetAttribute",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "System.Web.Mvc.HttpHeadAttribute": {
+    "value": "Microsoft.AspNetCore.Mvc.HttpHeadAttribute",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "System.Web.Mvc.HttpNotFoundResult": {
+    "value": "Microsoft.AspNetCore.Mvc.NotFoundResult",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "System.Web.Mvc.HttpOptionsAttribute": {
+    "value": "Microsoft.AspNetCore.Mvc.HttpOptionsAttribute"
+  },
+  "System.Web.Mvc.HttpPatchAttribute": {
+    "value": "Microsoft.AspNetCore.Mvc.HttpPatchAttribute"
+  },
+  "System.Web.Mvc.HttpPostAttribute": {
+    "value": "Microsoft.AspNetCore.Mvc.HttpPostAttribute"
+  },
+  "System.Web.Mvc.HttpPutAttribute": {
+    "value": "Microsoft.AspNetCore.Mvc.HttpPutAttribute"
+  },
+  "System.Web.Mvc.HttpStatusCodeResult": {
+    "value": "Microsoft.AspNetCore.Mvc.StatusCodeResult"
+  },
+  "System.Web.Mvc.HttpUnauthorizedResult": {
+    "value": "Microsoft.AspNetCore.Mvc.UnauthorizedResult"
+  },
+  "System.Web.Mvc.IActionFilter": {
+    "value": "Microsoft.AspNetCore.Mvc.Filters.IActionFilter"
+  },
+  "System.Web.Mvc.IResultFilter": {
+    "value": "Microsoft.AspNetCore.Mvc.Filters.IResultFilter"
+  },
+  "System.Web.Mvc.MvcHtmlString": {
+    "value": "Microsoft.AspNetCore.Html.HtmlString"
+  },
+  "System.Web.Mvc.NonActionAttribute": {
+    "value": "Microsoft.AspNetCore.Mvc.NonActionAttribute"
+  },
+  "System.Web.Mvc.OutputCacheAttribute": {
+    "value": "Microsoft.AspNetCore.Mvc.ResponseCacheAttribute"
+  },
+  "System.Web.Mvc.PartialViewResult": {
+    "value": "Microsoft.AspNetCore.Mvc.PartialViewResult"
+  },
+  "System.Web.Mvc.RedirectResult": {
+    "value": "Microsoft.AspNetCore.Mvc.RedirectResult"
+  },
+  "System.Web.Mvc.ResultExecutingContext": {
+    "value": "Microsoft.AspNetCore.Mvc.Filters.ResultExecutingContext"
+  },
+  "System.Web.Mvc.ResultExecutedContext": {
+    "value": "Microsoft.AspNetCore.Mvc.Filters.ResultExecutedContext"
+  },
+  "System.Web.Mvc.RouteAttribute": {
+    "value": "Microsoft.AspNetCore.Mvc.RouteAttribute"
+  },
+  "System.Web.Mvc.ValidateInputAttribute": {},
+  "System.Web.Mvc.ViewResult": {
+    "value": "Microsoft.AspNetCore.Mvc.ViewResult"
+  },
+  "System.Web.WebPages.HelperResult": {
+    "value": "Microsoft.AspNetCore.Mvc.Razor.HelperResult"
+  },
+  "System.Web.Http.ApiController": {
+    "value": "Microsoft.AspNetCore.Mvc.ControllerBase"
+  },
+  "System.Web.Http.ActionNameAttribute": {
+    "value": "Microsoft.AspNetCore.Mvc.ActionNameAttribute"
+  },
+  "System.Web.Http.AllowAnonymousAttribute": {
+    "value": "Microsoft.AspNetCore.Mvc.AllowAnonymousAttribute"
+  },
+  "System.Web.Http.AuthorizeAttribute": {
+    "value": "Microsoft.AspNetCore.Authorization.AuthorizeAttribute"
+  },
+  "System.Web.Http.FromBodyAttribute": {
+    "value": "Microsoft.AspNetCore.Mvc.FromBodyAttribute"
+  },
+  "System.Web.Http.FromUriAttribute": {
+    "value": "Microsoft.AspNetCore.Mvc.FromQueryAttribute"
+  },
+  "System.Web.Http.HttpBindNeverAttribute": {
+    "value": "Microsoft.AspNetCore.Mvc.ModelBinding.BindNeverAttribute"
+  },
+  "System.Web.Http.HttpBindRequiredAttribute": {
+    "value": "Microsoft.AspNetCore.Mvc.ModelBinding.BindRequiredAttribute"
+  },
+  "System.Web.Http.HttpGetAttribute": {
+    "value": "Microsoft.AspNetCore.Mvc.HttpGetAttribute"
+  },
+  "System.Web.Http.HttpHeadAttribute": {
+    "value": "Microsoft.AspNetCore.Mvc.HttpHeadAttribute"
+  },
+  "System.Web.Http.HttpOptionsAttribute": {
+    "value": "Microsoft.AspNetCore.Mvc.HttpOptionsAttribute"
+  },
+  "System.Web.Http.HttpPatchAttribute": {
+    "value": "Microsoft.AspNetCore.Mvc.HttpPatchAttribute"
+  },
+  "System.Web.Http.HttpPostAttribute": {
+    "value": "Microsoft.AspNetCore.Mvc.HttpPostAttribute"
+  },
+  "System.Web.Http.HttpPutAttribute": {
+    "value": "Microsoft.AspNetCore.Mvc.HttpPutAttribute"
+  },
+  "System.Web.Http.IHttpActionResult": {
+    "value": "Microsoft.AspNetCore.Mvc.IActionResult"
+  },
+  "System.Web.Http.NonActionAttribute": {
+    "value": "Microsoft.AspNetCore.Mvc.NonActionAttribute"
+  },
+  "System.Web.Http.RouteAttribute": {
+    "value": "Microsoft.AspNetCore.Mvc.RouteAttribute"
+  },
+  "System.Web.Optimization.BundleCollection": {
+    "kind": "type",
+    "state": "Removed",
+    "needsManualUpgrade": true,
+    "messageId": "BundlingCommentWithUrl",
+    "messageParams": [ "https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification" ],
+    "documentationUrl": "https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification"
+  },
+  "System.Web.Mvc.ChildActionOnlyAttribute": {
+    "kind": "type",
+    "state": "Replaced",
+    "needsManualUpgrade": true,
+    "messageId": "ChildActionOnlyCommentWithUrl",
+    "messageParams": [ "https://docs.microsoft.com/aspnet/core/mvc/views/view-components", "https://www.davepaquette.com/archive/2016/01/02/goodbye-child-actions-hello-view-components.aspx" ],
+    "documentationUrl": "https://docs.microsoft.com/aspnet/core/mvc/views/view-components"
+  },
+  "System.Web.Security.Membership": {
+    "kind": "type",
+    "state": "Replaced",
+    "needsManualUpgrade": true,
+    "messageId": "AspNetMembershipCommentWithUrl",
+    "messageParams": [ "https://docs.microsoft.com/aspnet/core/migration/proper-to-2x/membership-to-core-identity" ],
+    "documentationUrl": "https://docs.microsoft.com/aspnet/core/migration/proper-to-2x/membership-to-core-identity"
+  },
+  "System.Web.Security.FormsAuthentication": {
+    "kind": "type",
+    "state": "Replaced",
+    "needsManualUpgrade": true,
+    "messageId": "AspNetMembershipCommentWithUrl",
+    "messageParams": [ "https://docs.microsoft.com/aspnet/core/migration/proper-to-2x/membership-to-core-identity" ],
+    "documentationUrl": "https://docs.microsoft.com/aspnet/core/migration/proper-to-2x/membership-to-core-identity"
+  },
+  "Microsoft.AspNet.Identity.UserManager": {
+    "kind": "type",
+    "state": "Replaced",
+    "needsManualUpgrade": true,
+    "messageId": "IdentityToCoreCommentWithUrl",
+    "messageParams": [ "https://docs.microsoft.com/aspnet/core/migration/identity" ],
+    "documentationUrl": "https://docs.microsoft.com/aspnet/core/migration/identity"
+  },
+  "Microsoft.AspNet.Identity.Owin.SignInManager": {
+    "kind": "type",
+    "state": "Replaced",
+    "needsManualUpgrade": true,
+    "messageId": "IdentityToCoreCommentWithUrl",
+    "messageParams": [ "https://docs.microsoft.com/aspnet/core/migration/identity" ],
+    "documentationUrl": "https://docs.microsoft.com/aspnet/core/migration/identity"
+  },
+  "System.ServiceModel.ServiceHost": {
+    "kind": "type",
+    "state": "Removed",
+    "needsManualUpgrade": true,
+    "messageId": "WcfToCoreCommentWithUrl",
+    "messageParams": [ "https://docs.microsoft.com/dotnet/architecture/grpc-for-wcf-developers", "https://github.com/CoreWCF/CoreWCF" ],
+    "documentationUrl": "https://github.com/CoreWCF/CoreWCF"
+  },
+  "System.ServiceModel.ServiceHostBase": {
+    "kind": "type",
+    "state": "Removed",
+    "needsManualUpgrade": true,
+    "messageId": "WcfToCoreCommentWithUrl",
+    "messageParams": [ "https://docs.microsoft.com/dotnet/architecture/grpc-for-wcf-developers", "https://github.com/CoreWCF/CoreWCF" ],
+    "documentationUrl": "https://github.com/CoreWCF/CoreWCF"
+  }
+}

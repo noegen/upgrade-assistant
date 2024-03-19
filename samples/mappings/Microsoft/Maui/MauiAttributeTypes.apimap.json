@@ -1,0 +1,8 @@
+{
+  "Xamarin.Forms.ExportRendererAttribute": {
+    "kind": "type",
+    "state": "Removed",
+    "needsManualUpgrade": true,
+    "documentationUrl": "https://github.com/dotnet/maui/wiki/Using-Custom-Renderers-in-.NET-MAUI"
+  }
+}

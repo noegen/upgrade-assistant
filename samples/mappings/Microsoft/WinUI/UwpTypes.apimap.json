@@ -1,0 +1,77 @@
+﻿{
+  "Windows.UI.WindowManagement.AppWindow": {
+    "value": "Microsoft.UI.Windowing.AppWindow",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Windows.UI.ViewManagement.ApplicationView": {
+    "value": "Microsoft.UI.Windowing.AppWindow",
+    "kind": "type",
+    "state": "Replaced",
+    "needsManualUpgrade": true,
+    "documentationUrl": "https://docs.microsoft.com/en-us/windows/apps/windows-app-sdk/migrate-to-windows-app-sdk/guides/windowing"
+  },
+  "Windows.UI.Core.CoreDispatcher": {
+    "value": "DispatcherQueue",
+    "kind": "type",
+    "state": "Removed",
+    "needsManualUpgrade": true,
+    "documentationUrl": "https://docs.microsoft.com/en-us/windows/apps/windows-app-sdk/migrate-to-windows-app-sdk/guides/threading"
+  },
+  "Windows.Media.Capture.CameraCaptureUI": {
+    "kind": "type",
+    "state": "NotImplemented",
+    "needsManualUpgrade": true,
+    "messageId": "ApiNotImplementedInCommentWithUrl",
+    "messageParams": [ "Windows.Media.Capture.CameraCaptureUI", "WindowsAppSDK", "https://docs.microsoft.com/en-us/windows/apps/windows-app-sdk/migrate-to-windows-app-sdk/what-is-supported" ],
+    "documentationUrl": "https://docs.microsoft.com/en-us/windows/apps/windows-app-sdk/migrate-to-windows-app-sdk/what-is-supported"
+  },
+  "Microsoft.UI.Xaml.Controls.InkCanvas": {
+    "kind": "type",
+    "state": "NotImplemented",
+    "needsManualUpgrade": true,
+    "messageId": "ApiNotImplementedInCommentWithUrl",
+    "messageParams": [ "Microsoft.UI.Xaml.Controls.InkCanvas", "WindowsAppSDK", "https://docs.microsoft.com/en-us/windows/apps/windows-app-sdk/migrate-to-windows-app-sdk/what-is-supported" ],
+    "documentationUrl": "https://docs.microsoft.com/en-us/windows/apps/windows-app-sdk/migrate-to-windows-app-sdk/what-is-supported"
+  },
+  "Microsoft.UI.Xaml.Controls.Maps.MapControl": {
+    "kind": "type",
+    "state": "NotImplemented",
+    "needsManualUpgrade": true,
+    "messageId": "ApiNotImplementedInCommentWithUrl",
+    "messageParams": [ "Microsoft.UI.Xaml.Controls.Maps.MapControl", "WindowsAppSDK", "https://docs.microsoft.com/en-us/windows/apps/windows-app-sdk/migrate-to-windows-app-sdk/what-is-supported" ],
+    "documentationUrl": "https://docs.microsoft.com/en-us/windows/apps/windows-app-sdk/migrate-to-windows-app-sdk/what-is-supported"
+  },
+  "Microsoft.UI.Xaml.Controls.MediaElement": {
+    "kind": "type",
+    "state": "NotImplemented",
+    "needsManualUpgrade": true,
+    "messageId": "ApiNotImplementedInCommentWithUrl",
+    "messageParams": [ "Microsoft.UI.Xaml.Controls.MediaElement", "WindowsAppSDK", "https://docs.microsoft.com/en-us/windows/apps/windows-app-sdk/migrate-to-windows-app-sdk/what-is-supported" ],
+    "documentationUrl": "https://docs.microsoft.com/en-us/windows/apps/windows-app-sdk/migrate-to-windows-app-sdk/what-is-supported"
+  },
+  "Windows.Graphics.Printing.PrintManager": {
+    "kind": "type",
+    "state": "NotImplemented",
+    "needsManualUpgrade": true,
+    "messageId": "ApiNotImplementedInCommentWithUrl",
+    "messageParams": [ "Windows.Graphics.Printing.PrintManager", "WindowsAppSDK", "https://docs.microsoft.com/en-us/windows/apps/windows-app-sdk/migrate-to-windows-app-sdk/what-is-supported" ],
+    "documentationUrl": "https://docs.microsoft.com/en-us/windows/apps/windows-app-sdk/migrate-to-windows-app-sdk/what-is-supported"
+  },
+  "Windows.Security.Authentication.Web.WebAuthenticationBroker": {
+    "kind": "type",
+    "state": "NotImplemented",
+    "needsManualUpgrade": true,
+    "messageId": "ApiNotImplementedInCommentWithUrl",
+    "messageParams": [ "Windows.Security.Authentication.Web.WebAuthenticationBroker", "WindowsAppSDK", "https://docs.microsoft.com/en-us/windows/apps/windows-app-sdk/migrate-to-windows-app-sdk/what-is-supported" ],
+    "documentationUrl": "https://docs.microsoft.com/en-us/windows/apps/windows-app-sdk/migrate-to-windows-app-sdk/what-is-supported"
+  },
+  "Windows.UI.Shell.TaskbarManager": {
+    "kind": "type",
+    "state": "NotImplemented",
+    "needsManualUpgrade": true,
+    "messageId": "ApiNotImplementedInCommentWithUrl",
+    "messageParams": [ "Windows.UI.Shell.TaskbarManager", "WindowsAppSDK", "https://docs.microsoft.com/en-us/windows/apps/windows-app-sdk/migrate-to-windows-app-sdk/what-is-supported" ],
+    "documentationUrl": "https://docs.microsoft.com/en-us/windows/apps/windows-app-sdk/migrate-to-windows-app-sdk/what-is-supported"
+  }
+}

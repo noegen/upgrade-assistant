@@ -1,0 +1,13 @@
+{
+  "System.Net.Http.HttpRequestMessage": {
+    "value": "Microsoft.AspNetCore.Http.HttpRequest",
+    "kind": "type",
+    "state": "Replaced"
+  },
+
+  "System.Net.Http.HttpResponseMessage": {
+    "value": "Microsoft.AspNetCore.Mvc.IActionResult",
+    "kind": "type",
+    "state": "Replaced"
+  }
+}

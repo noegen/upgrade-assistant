@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <!-- Pack related properties -->
+  <PropertyGroup>
+    <IsPackable>true</IsPackable>
+    <PackageId>Microsoft.UpgradeAssistant.Mappings</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Authors>Microsoft</Authors>
+    <Description>A set of package and API mappings for the dotnet UpgradeAssistant.</Description>
+    <Copyright>© Microsoft Corporation. All rights reserved.</Copyright>
+    <PackageProjectUrl>https://go.microsoft.com/fwlink/?LinkID=2202641</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/dotnet/upgrade-assistant</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="mappings\**\*.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="mappings\Microsoft\Maui\CommunityToolkit.mauiinit.json" />
+  </ItemGroup>
+
+</Project>

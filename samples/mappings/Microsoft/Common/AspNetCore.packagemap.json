@@ -1,0 +1,726 @@
+﻿{
+  "defaults": {
+    "frameworks": {
+      ".NETCoreApp,Version=v6.0": [
+        {
+          "version": "6.*"
+        }
+      ],
+      ".NETCoreApp,Version=v7.0": [
+        {
+          "version": "7.*"
+        }
+      ],
+      ".NETCoreApp,Version=v8.0": [
+        {
+          "version": "8.*"
+        }
+      ],
+      ".NETCoreApp,Version=v9.0": [
+        {
+          "version": "9.*",
+          "prerelease": true
+        }
+      ]
+    }
+  },
+  "packages": [
+    {
+      "name": "dotnet-sql-cache"
+    },
+    {
+      "name": "Microsoft.AspNetCore.App.Ref"
+    },
+    {
+      "name": "Microsoft.AspNetCore.ApiAuthorization.IdentityServer",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [
+          {
+            "version": ""
+          }
+        ],
+        ".NETCoreApp,Version=v8.0": [
+          {
+            "version": "8.*"
+          }
+        ],
+        ".NETCoreApp,Version=v9.0": [],
+        ".NETStandard,Version=v2.0": [
+          {
+            "name": "Microsoft.Identity.Web",
+            "version": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "Microsoft.AspNetCore.Authentication.AzureAD.UI",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [
+          {
+            "name": "Microsoft.Identity.Web",
+            "version": ""
+          }
+        ],
+        ".NETStandard,Version=v2.0": [
+          {
+            "name": "Microsoft.Identity.Web",
+            "version": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "Microsoft.AspNetCore.Authentication.AzureADB2C.UI",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [
+          {
+            "name": "Microsoft.Identity.Web",
+            "version": ""
+          }
+        ],
+        ".NETStandard,Version=v2.0": [
+          {
+            "name": "Microsoft.Identity.Web",
+            "version": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "Microsoft.AspNetCore.Authentication.Certificate"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Authentication.Facebook"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Authentication.Google"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Authentication.JwtBearer"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Authentication.MicrosoftAccount"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Authentication.Negotiate"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Authentication.OpenIdConnect"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Authentication.Twitter"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Authentication.WsFederation"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Authorization"
+    },
+    {
+      "name": "Microsoft.AspNetCore.AzureAppServices.HostingStartup"
+    },
+    {
+      "name": "Microsoft.AspNetCore.AzureAppServices.SiteExtension",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [
+          {
+            "version": "6.*"
+          }
+        ],
+        ".NETCoreApp,Version=v7.0": [
+          {
+            "version": "7.*"
+          }
+        ],
+        ".NETCoreApp,Version=v8.0": []
+      }
+    },
+    {
+      "name": "Microsoft.AspNetCore.AzureAppServicesIntegration"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Components"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Components.Analyzers"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Components.Authorization"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Components.CustomElements",
+      "frameworks": {
+        ".NETCoreApp,Version=v7.0": [
+          {
+            "version": "7.*"
+          }
+        ],
+        ".NETCoreApp,Version=v8.0": [
+          {
+            "version": "8.*"
+          }
+        ],
+        ".NETCoreApp,Version=v9.0": [
+          {
+            "version": "9.*",
+            "prerelease": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "Microsoft.AspNetCore.Components.Forms"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Components.QuickGrid",
+      "frameworks": {
+        ".NETCoreApp,Version=v8.0": [
+          {
+            "version": "8.*"
+          }
+        ],
+        ".NETCoreApp,Version=v9.0": [
+          {
+            "version": "9.*",
+            "prerelease": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter",
+      "frameworks": {
+        ".NETCoreApp,Version=v8.0": [
+          {
+            "version": "8.*"
+          }
+        ],
+        ".NETCoreApp,Version=v9.0": [
+          {
+            "version": "9.*",
+            "prerelease": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "Microsoft.AspNetCore.Components.Web"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Components.WebAssembly"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Components.WebAssembly.Authentication"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Components.WebAssembly.DevServer"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Components.WebAssembly.Server"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Components.WebView"
+    },
+    {
+      "name": "Microsoft.AspNetCore.ConcurrencyLimiter"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Connections.Abstractions"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Cryptography.Internal"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Cryptography.KeyDerivation"
+    },
+    {
+      "name": "Microsoft.AspNetCore.DataProtection"
+    },
+    {
+      "name": "Microsoft.AspNetCore.DataProtection.AzureKeyVault",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [
+          {
+            "name": "Azure.Extensions.AspNetCore.DataProtection.Keys",
+            "version": ""
+          }
+        ],
+        ".NETStandard,Version=v8.0": [
+          {
+            "name": "Azure.Extensions.AspNetCore.DataProtection.Keys",
+            "version": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "Microsoft.AspNetCore.DataProtection.AzureStorage",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [
+          {
+            "name": "Azure.Extensions.AspNetCore.DataProtection.Blobs",
+            "version": ""
+          }
+        ],
+        ".NETStandard,Version=v8.0": [
+          {
+            "name": "Azure.Extensions.AspNetCore.DataProtection.Blobs",
+            "version": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "Microsoft.AspNetCore.DataProtection.Redis",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [
+          {
+            "name": "Azure.Extensions.AspNetCore.DataProtection.StackExchangeRedis",
+            "version": ""
+          }
+        ],
+        ".NETStandard,Version=v8.0": [
+          {
+            "name": "Azure.Extensions.AspNetCore.DataProtection.StackExchangeRedis",
+            "version": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "Microsoft.AspNetCore.DataProtection.Abstractions"
+    },
+    {
+      "name": "Microsoft.AspNetCore.DataProtection.EntityFrameworkCore"
+    },
+    {
+      "name": "Microsoft.AspNetCore.DataProtection.Extensions"
+    },
+    {
+      "name": "Microsoft.AspNetCore.DataProtection.StackExchangeRedis"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Grpc.JsonTranscoding",
+      "frameworks": {
+        ".NETCoreApp,Version=v7.0": [
+          {
+            "version": "7.*"
+          }
+        ],
+        ".NETCoreApp,Version=v8.0": [
+          {
+            "version": "8.*"
+          }
+        ],
+        ".NETCoreApp,Version=v9.0": [
+          {
+            "version": "9.*",
+            "prerelease": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "Microsoft.AspNetCore.Grpc.Swagger",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [
+          {
+            "prerelease": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "Microsoft.AspNetCore.HeaderPropagation"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Hosting.WindowsServices"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Http.Connections.Client"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Http.Connections.Common"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Identity.EntityFrameworkCore"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Identity.UI"
+    },
+    {
+      "name": "Microsoft.AspNetCore.JsonPatch"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Metadata"
+    },
+    {
+      "name": "Microsoft.AspNetCore.MiddlewareAnalysis"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Mvc.NewtonsoftJson"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Mvc.Razor.Extensions",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [
+          {
+            "version": ""
+          }
+        ],
+        ".NETCoreApp,Version=v8.0": []
+      }
+    },
+    {
+      "name": "Microsoft.AspNetCore.Mvc.Razor.Language",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [
+          {
+            "version": ""
+          }
+        ],
+        ".NETCoreApp,Version=v8.0": []
+      }
+    },
+    {
+      "name": "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Mvc.Testing"
+    },
+    {
+      "name": "Microsoft.AspNetCore.NodeServices",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [
+          {
+            "name": "Microsoft.AspNetCore.SpaServices.Extensions",
+            "version": "6.*"
+          }
+        ],
+        ".NETCoreApp,Version=v7.0": [
+          {
+            "name": "Microsoft.AspNetCore.SpaServices.Extensions",
+            "version": "7.*"
+          }
+        ],
+        ".NETCoreApp,Version=v8.0": [
+          {
+            "name": "Microsoft.AspNetCore.SpaServices.Extensions",
+            "version": "8.*"
+          }
+        ],
+        ".NETCoreApp,Version=v9.0": [
+          {
+            "name": "Microsoft.AspNetCore.SpaServices.Extensions",
+            "version": "9.*",
+            "prerelease": true
+          }
+        ],
+        ".NETStandard,Version=v2.0": [
+          {
+            "name": "Microsoft.AspNetCore.SpaServices.Extensions",
+            "version": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "Microsoft.AspNetCore.OpenApi",
+      "frameworks": {
+        ".NETCoreApp,Version=v7.0": [
+          {
+            "version": "7.*"
+          }
+        ],
+        ".NETCoreApp,Version=v8.0": [
+          {
+            "version": "8.*"
+          }
+        ],
+        ".NETCoreApp,Version=v9.0": [
+          {
+            "version": "9.*",
+            "prerelease": true
+          }
+        ]
+      }
+    },
+
+    {
+      "name": "Microsoft.AspNetCore.OutputCaching.StackExchangeRedis",
+      "frameworks": {
+        ".NETCoreApp,Version=v8.0": [
+          {
+            "version": "8.*"
+          }
+        ],
+        ".NETCoreApp,Version=v9.0": [
+          {
+            "version": "9.*",
+            "prerelease": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "Microsoft.AspNetCore.Owin"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [
+          {
+            "version": ""
+          }
+        ],
+        ".NETCoreApp,Version=v8.0": []
+      }
+    },
+    {
+      "name": "Microsoft.AspNetCore.SignalR.Client"
+    },
+    {
+      "name": "Microsoft.AspNetCore.SignalR.Client.Core"
+    },
+    {
+      "name": "Microsoft.AspNetCore.SignalR.Common"
+    },
+    {
+      "name": "Microsoft.AspNetCore.SignalR.Protocols.Json"
+    },
+    {
+      "name": "Microsoft.AspNetCore.SignalR.Protocols.MessagePack"
+    },
+    {
+      "name": "Microsoft.AspNetCore.SignalR.Protocols.NewtonsoftJson"
+    },
+    {
+      "name": "Microsoft.AspNetCore.SignalR.Redis",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [
+          {
+            "name": "Microsoft.AspNetCore.SignalR.StackExchangeRedis",
+            "version": "6.*"
+          }
+        ],
+        ".NETCoreApp,Version=v7.0": [
+          {
+            "name": "Microsoft.AspNetCore.SignalR.StackExchangeRedis",
+            "version": "7.*"
+          }
+        ],
+        ".NETCoreApp,Version=v8.0": [
+          {
+            "name": "Microsoft.AspNetCore.SignalR.StackExchangeRedis",
+            "version": "8.*"
+          }
+        ],
+        ".NETCoreApp,Version=v9.0": [
+          {
+            "name": "Microsoft.AspNetCore.SignalR.StackExchangeRedis",
+            "version": "9.*",
+            "prerelease": true
+          }
+        ],
+        ".NETStandard,Version=v2.0": [
+          {
+            "name": "Microsoft.AspNetCore.SignalR.StackExchangeRedis",
+            "version": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "Microsoft.AspNetCore.SignalR.Specification.Tests"
+    },
+    {
+      "name": "Microsoft.AspNetCore.SignalR.StackExchangeRedis"
+    },
+    {
+      "name": "Microsoft.AspNetCore.SpaProxy"
+    },
+    {
+      "name": "Microsoft.AspNetCore.SpaServices",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [
+          {
+            "name": "Microsoft.AspNetCore.SpaServices.Extensions",
+            "version": "6.*"
+          }
+        ],
+        ".NETCoreApp,Version=v7.0": [
+          {
+            "name": "Microsoft.AspNetCore.SpaServices.Extensions",
+            "version": "7.*"
+          }
+        ],
+        ".NETCoreApp,Version=v8.0": [
+          {
+            "name": "Microsoft.AspNetCore.SpaServices.Extensions",
+            "version": "8.*"
+          }
+        ],
+        ".NETCoreApp,Version=v9.0": [
+          {
+            "name": "Microsoft.AspNetCore.SpaServices.Extensions",
+            "version": "9.*",
+            "prerelease": true
+          }
+        ],
+        ".NETStandard,Version=v2.0": [
+          {
+            "name": "Microsoft.AspNetCore.SpaServices.Extensions",
+            "version": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "Microsoft.AspNetCore.SpaServices.Extensions"
+    },
+    {
+      "name": "Microsoft.AspNetCore.TestHost"
+    },
+    {
+      "name": "Microsoft.AspNetCore.WebUtilities",
+      "frameworks": {
+        ".NETCoreApp,Version=v8.0": [
+          {
+            "version": "8.*"
+          }
+        ],
+        ".NETCoreApp,Version=v9.0": [
+          {
+            "version": "9.*",
+            "prerelease": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "Microsoft.Authentication.WebAssembly.Msal"
+    },
+    {
+      "name": "Microsoft.dotnet-openapi"
+    },
+    {
+      "name": "Microsoft.DotNet.Web.Client.ItemTemplates"
+    },
+    {
+      "name": "Microsoft.DotNet.Web.ItemTemplates.6.0",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [
+          {
+            "version": "6.*"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Microsoft.DotNet.Web.ProjectTemplates.6.0",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [
+          {
+            "version": "6.*"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Microsoft.DotNet.Web.Spa.ProjectTemplates.6.0",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [
+          {
+            "version": "6.*"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Microsoft.DotNet.Web.ItemTemplates.7.0",
+      "frameworks": {
+        ".NETCoreApp,Version=v7.0": [
+          {
+            "version": "7.*"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Microsoft.DotNet.Web.ProjectTemplates.7.0",
+      "frameworks": {
+        ".NETCoreApp,Version=v7.0": [
+          {
+            "version": "7.*"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Microsoft.DotNet.Web.Spa.ProjectTemplates.7.0",
+      "frameworks": {
+        ".NETCoreApp,Version=v7.0": [
+          {
+            "version": "7.*"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Microsoft.DotNet.Web.ItemTemplates.8.0",
+      "frameworks": {
+        ".NETCoreApp,Version=v8.0": [
+          {
+            "version": "8.*"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Microsoft.DotNet.Web.ItemTemplates.9.0",
+      "frameworks": {
+        ".NETCoreApp,Version=v9.0": [
+          {
+            "version": "9.*",
+            "prerelease": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "Microsoft.DotNet.Web.ProjectTemplates.8.0",
+      "frameworks": {
+        ".NETCoreApp,Version=v8.0": [
+          {
+            "version": "8.*"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Microsoft.DotNet.Web.ProjectTemplates.9.0",
+      "frameworks": {
+        ".NETCoreApp,Version=v9.0": [
+          {
+            "version": "9.*",
+            "prerelease": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "Microsoft.DotNet.Web.Spa.ProjectTemplates.8.0",
+      "frameworks": {
+        ".NETCoreApp,Version=v8.0": [
+          {
+            "version": "8.*"
+          }
+        ]
+      }
+    }
+  ]
+}

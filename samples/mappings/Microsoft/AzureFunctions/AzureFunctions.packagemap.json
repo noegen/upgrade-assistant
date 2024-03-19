@@ -1,0 +1,278 @@
+﻿{
+  "packages": [
+    {
+      "name": "Microsoft.NET.Sdk.Functions",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [
+          {
+            "name": "Microsoft.Azure.Functions.Worker.Extensions.Http",
+            "version": "3.*"
+          },
+          {
+            "name": "Microsoft.Azure.Functions.Worker.Sdk",
+            "version": "1.*"
+          },
+          {
+            "name": "Microsoft.Azure.Functions.Worker",
+            "version": "1.*"
+          }
+        ],
+        ".NETStandard,Version=v2.0": [
+          {
+            "name": "Microsoft.Azure.Functions.Worker.Extensions.Http",
+            "version": "3.*"
+          },
+          {
+            "name": "Microsoft.Azure.Functions.Worker.Sdk",
+            "version": "1.*"
+          },
+          {
+            "name": "Microsoft.Azure.Functions.Worker",
+            "version": "1.*"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Microsoft.Azure.Functions.Worker",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [
+          {
+            "name": "Microsoft.Azure.Functions.Worker",
+            "version": "1.*"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Microsoft.Azure.Functions.Worker.Sdk",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [
+          {
+            "name": "Microsoft.Azure.Functions.Worker.Sdk",
+            "version": "1.*"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Microsoft.Azure.Functions.Worker.Extensions.Http",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [
+          {
+            "name": "Microsoft.Azure.Functions.Worker.Extensions.Http",
+            "version": "3.*"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Microsoft.Azure.Functions.Worker.Extensions.CosmosDB",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [
+          {
+            "name": "Microsoft.Azure.Functions.Worker.Extensions.CosmosDB",
+            "version": "4.*"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Microsoft.Azure.Functions.Worker.Extensions.DurableTask",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [
+          {
+            "name": "Microsoft.Azure.Functions.Worker.Extensions.DurableTask",
+            "version": "3.*"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Microsoft.Azure.Functions.Worker.Extensions.EventGrid",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [
+          {
+            "name": "Microsoft.Azure.Functions.Worker.Extensions.EventGrid",
+            "version": "3.*"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Microsoft.Azure.Functions.Worker.Extensions.RabbitMQ",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [
+          {
+            "name": "Microsoft.Azure.Functions.Worker.Extensions.RabbitMQ",
+            "version": "3.*"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Microsoft.Azure.Functions.Worker.Extensions.SignalRService",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [
+          {
+            "name": "Microsoft.Azure.Functions.Worker.Extensions.SignalRService",
+            "version": "3.*"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Microsoft.Azure.Functions.Worker.Extensions.ServiceBus",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [
+          {
+            "name": "Microsoft.Azure.Functions.Worker.Extensions.ServiceBus",
+            "version": "5.*"
+          },
+          {
+            "name": "Microsoft.Azure.Functions.Worker.Extensions.EventHubs",
+            "version": "5.*"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Microsoft.Azure.WebJobs.Extensions.DocumentDB",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [
+          {
+            "name": "Microsoft.Azure.Functions.Worker.Extensions.CosmosDB",
+            "version": "4.*"
+          }
+        ],
+        ".NETStandard,Version=v2.0": [
+          {
+            "name": "Microsoft.Azure.Functions.Worker.Extensions.CosmosDB",
+            "version": "4.*"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Microsoft.Azure.WebJobs.Extensions.DurableTask",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [
+          {
+            "name": "Microsoft.Azure.Functions.Worker.Extensions.DurableTask",
+            "version": "3.*"
+          }
+        ],
+        ".NETStandard,Version=v2.0": [
+          {
+            "name": "Microsoft.Azure.Functions.Worker.Extensions.DurableTask",
+            "version": "3.*"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Microsoft.Azure.WebJobs.Extensions.EventGrid",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [
+          {
+            "name": "Microsoft.Azure.Functions.Worker.Extensions.EventGrid",
+            "version": "2.*"
+          }
+        ],
+        ".NETStandard,Version=v2.0": [
+          {
+            "name": "Microsoft.Azure.Functions.Worker.Extensions.EventGrid",
+            "version": "2.*"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Microsoft.Azure.WebJobs.Extensions.RabbitMQ",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [
+          {
+            "name": "Microsoft.Azure.Functions.Worker.Extensions.RabbitMQ",
+            "version": "1.*"
+          }
+        ],
+        ".NETStandard,Version=v2.0": [
+          {
+            "name": "Microsoft.Azure.Functions.Worker.Extensions.RabbitMQ",
+            "version": "1.*"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Microsoft.Azure.WebJobs.Extensions.SignalRService",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [
+          {
+            "name": "Microsoft.Azure.Functions.Worker.Extensions.SignalRService",
+            "version": "1.*"
+          }
+        ],
+        ".NETStandard,Version=v2.0": [
+          {
+            "name": "Microsoft.Azure.Functions.Worker.Extensions.SignalRService",
+            "version": "1.*"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Microsoft.Azure.WebJobs.ServiceBus",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [
+          {
+            "name": "Microsoft.Azure.Functions.Worker.Extensions.ServiceBus",
+            "version": "5.*"
+          },
+          {
+            "name": "Microsoft.Azure.Functions.Worker.Extensions.EventHubs",
+            "version": "5.*"
+          }
+        ],
+        ".NETStandard,Version=v2.0": [
+          {
+            "name": "Microsoft.Azure.Functions.Worker.Extensions.ServiceBus",
+            "version": "5.*"
+          },
+          {
+            "name": "Microsoft.Azure.Functions.Worker.Extensions.EventHubs",
+            "version": "5.*"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Microsoft.Azure.Functions.Worker.Extensions.Http.AspNetCore",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [
+          {
+            "name": "Microsoft.Azure.Functions.Worker.Extensions.Http.AspNetCore",
+            "version": "1.*"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Microsoft.Azure.WebJobs.Extensions.Tables",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [
+          {
+            "name": "Microsoft.Azure.Functions.Worker.Extensions.Tables",
+            "version": "1.*"
+          }
+        ],
+        ".NETStandard,Version=v2.0": [
+          {
+            "name": "Microsoft.Azure.Functions.Worker.Extensions.Tables",
+            "version": "1.*"
+          }
+        ]
+      }
+    }
+  ]
+}

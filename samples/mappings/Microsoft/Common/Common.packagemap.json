@@ -1,0 +1,55 @@
+﻿{
+  "packages": [
+    {
+      "name": "Newtonsoft.Json",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [
+          {
+            "name": "Newtonsoft.Json",
+            "version": ""
+          }
+        ],
+        ".NETStandard,Version=v2.0": [
+          {
+            "name": "Newtonsoft.Json",
+            "version": ""
+          }
+        ]
+      }
+    },
+    {
+      "name": "Microsoft.Tpl.Dataflow",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [
+          {
+            "name": "System.Threading.Tasks.Dataflow",
+            "version": "6.0.0"
+          }
+        ],
+        ".NETStandard,Version=v2.0": [
+          {
+            "name": "System.Threading.Tasks.Dataflow",
+            "version": "6.0.0"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Microsoft.Net.Http",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [
+          {
+            "name": "System.Net.Http",
+            "version": "4.3.4"
+          }
+        ],
+        ".NETStandard,Version=v2.0": [
+          {
+            "name": "System.Net.Http",
+            "version": "4.3.4"
+          }
+        ]
+      }
+    }
+  ]
+}

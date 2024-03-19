@@ -1,0 +1,1282 @@
+{
+  "Xamarin.Forms.Application.Properties": {
+    "kind": "method",
+    "state": "Removed",
+    "needsManualUpgrade": true,
+    "documentationUrl": "https://learn.microsoft.com/en-us/dotnet/maui/migration/forms-projects#other-changes"
+  },
+  "Xamarin.Forms.Color.R": {
+    "value": "Microsoft.Maui.Graphics.Color.Red",
+    "kind": "property",
+    "state": "Replaced",
+    "documentationUrl": "https://learn.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.G": {
+    "value": "Microsoft.Maui.Graphics.Color.Green",
+    "kind": "property",
+    "state": "Replaced",
+    "documentationUrl": "https://learn.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.B": {
+    "value": "Microsoft.Maui.Graphics.Color.Blue",
+    "kind": "property",
+    "state": "Replaced",
+    "documentationUrl": "https://learn.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.A": {
+    "value": "Microsoft.Maui.Graphics.Color.Alpha",
+    "kind": "property",
+    "state": "Replaced",
+    "documentationUrl": "https://learn.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.Hue": {
+    "value": "Microsoft.Maui.Graphics.Color.GetHue",
+    "kind": "property",
+    "state": "Replaced",
+    "documentationUrl": "https://learn.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.Default": {
+    "value": "null",
+    "kind": "property",
+    "state": "Removed",
+    "documentationUrl": "https://learn.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.Accent": {
+    "kind": "property",
+    "state": "Removed",
+    "documentationUrl": "https://learn.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.FromHex": {
+    "value": "Microsoft.Maui.Graphics.Color.FromArgb",
+    "kind": "method",
+    "state": "Replaced",
+    "documentationUrl": "https://learn.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Microsoft.Maui.Graphics.Color.FromHex": {
+    "value": "Microsoft.Maui.Graphics.Color.FromArgb",
+    "kind": "method",
+    "state": "Replaced",
+    "documentationUrl": "https://learn.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.AliceBlue": {
+    "value": "Microsoft.Maui.Graphics.Colors.AliceBlue",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://learn.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.AntiqueWhite": {
+    "value": "Microsoft.Maui.Graphics.Colors.AntiqueWhite",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://learn.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.Aqua": {
+    "value": "Microsoft.Maui.Graphics.Colors.Aqua",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.Aquamarine": {
+    "value": "Microsoft.Maui.Graphics.Colors.Aquamarine",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.Azure": {
+    "value": "Microsoft.Maui.Graphics.Colors.Azure",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.Beige": {
+    "value": "Microsoft.Maui.Graphics.Colors.Beige",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.Bisque": {
+    "value": "Microsoft.Maui.Graphics.Colors.Bisque",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.Black": {
+    "value": "Microsoft.Maui.Graphics.Colors.Black",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.BlanchedAlmond": {
+    "value": "Microsoft.Maui.Graphics.Colors.BlanchedAlmond",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.Blue": {
+    "value": "Microsoft.Maui.Graphics.Colors.Blue",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.BlueViolet": {
+    "value": "Microsoft.Maui.Graphics.Colors.BlueViolet",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.Brown": {
+    "value": "Microsoft.Maui.Graphics.Colors.Brown",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.BurlyWood": {
+    "value": "Microsoft.Maui.Graphics.Colors.BurlyWood",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.CadetBlue": {
+    "value": "Microsoft.Maui.Graphics.Colors.CadetBlue",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.Chartreuse": {
+    "value": "Microsoft.Maui.Graphics.Colors.Chartreuse",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.Chocolate": {
+    "value": "Microsoft.Maui.Graphics.Colors.Chocolate",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.Coral": {
+    "value": "Microsoft.Maui.Graphics.Colors.Coral",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.CornflowerBlue": {
+    "value": "Microsoft.Maui.Graphics.Colors.CornflowerBlue",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.Cornsilk": {
+    "value": "Microsoft.Maui.Graphics.Colors.Cornsilk",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.Crimson": {
+    "value": "Microsoft.Maui.Graphics.Colors.Crimson",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.Cyan": {
+    "value": "Microsoft.Maui.Graphics.Colors.Cyan",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.DarkBlue": {
+    "value": "Microsoft.Maui.Graphics.Colors.DarkBlue",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.DarkCyan": {
+    "value": "Microsoft.Maui.Graphics.Colors.DarkCyan",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.DarkGoldenrod": {
+    "value": "Microsoft.Maui.Graphics.Colors.DarkGoldenrod",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.DarkGray": {
+    "value": "Microsoft.Maui.Graphics.Colors.DarkGray",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.DarkGreen": {
+    "value": "Microsoft.Maui.Graphics.Colors.DarkGreen",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.DarkKhaki": {
+    "value": "Microsoft.Maui.Graphics.Colors.DarkKhaki",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.DarkMagenta": {
+    "value": "Microsoft.Maui.Graphics.Colors.DarkMagenta",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.DarkOliveGreen": {
+    "value": "Microsoft.Maui.Graphics.Colors.DarkOliveGreen",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.DarkOrange": {
+    "value": "Microsoft.Maui.Graphics.Colors.DarkOrange",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.DarkOrchid": {
+    "value": "Microsoft.Maui.Graphics.Colors.DarkOrchid",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.DarkRed": {
+    "value": "Microsoft.Maui.Graphics.Colors.DarkRed",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.DarkSalmon": {
+    "value": "Microsoft.Maui.Graphics.Colors.DarkSalmon",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.DarkSeaGreen": {
+    "value": "Microsoft.Maui.Graphics.Colors.DarkSeaGreen",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.DarkSlateBlue": {
+    "value": "Microsoft.Maui.Graphics.Colors.DarkSlateBlue",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.DarkSlateGray": {
+    "value": "Microsoft.Maui.Graphics.Colors.DarkSlateGray",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.DarkTurquoise": {
+    "value": "Microsoft.Maui.Graphics.Colors.DarkTurquoise",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.DarkViolet": {
+    "value": "Microsoft.Maui.Graphics.Colors.DarkViolet",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.DeepPink": {
+    "value": "Microsoft.Maui.Graphics.Colors.DeepPink",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.DeepSkyBlue": {
+    "value": "Microsoft.Maui.Graphics.Colors.DeepSkyBlue",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.DimGray": {
+    "value": "Microsoft.Maui.Graphics.Colors.DimGray",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.DodgerBlue": {
+    "value": "Microsoft.Maui.Graphics.Colors.DodgerBlue",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.Firebrick": {
+    "value": "Microsoft.Maui.Graphics.Colors.Firebrick",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.FloralWhite": {
+    "value": "Microsoft.Maui.Graphics.Colors.FloralWhite",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.ForestGreen": {
+    "value": "Microsoft.Maui.Graphics.Colors.ForestGreen",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.Fuchsia": {
+    "value": "Microsoft.Maui.Graphics.Colors.Fuchsia",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.Gainsboro": {
+    "value": "Microsoft.Maui.Graphics.Colors.Gainsboro",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.GhostWhite": {
+    "value": "Microsoft.Maui.Graphics.Colors.GhostWhite",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.Gold": {
+    "value": "Microsoft.Maui.Graphics.Colors.Gold",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.Goldenrod": {
+    "value": "Microsoft.Maui.Graphics.Colors.Goldenrod",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.Gray": {
+    "value": "Microsoft.Maui.Graphics.Colors.Gray",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.Green": {
+    "value": "Microsoft.Maui.Graphics.Colors.Green",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.GreenYellow": {
+    "value": "Microsoft.Maui.Graphics.Colors.GreenYellow",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.Honeydew": {
+    "value": "Microsoft.Maui.Graphics.Colors.Honeydew",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.HotPink": {
+    "value": "Microsoft.Maui.Graphics.Colors.HotPink",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.IndianRed": {
+    "value": "Microsoft.Maui.Graphics.Colors.IndianRed",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.Indigo": {
+    "value": "Microsoft.Maui.Graphics.Colors.Indigo",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.Ivory": {
+    "value": "Microsoft.Maui.Graphics.Colors.Ivory",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.Khaki": {
+    "value": "Microsoft.Maui.Graphics.Colors.Khaki",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.Lavender": {
+    "value": "Microsoft.Maui.Graphics.Colors.Lavender",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.LavenderBlush": {
+    "value": "Microsoft.Maui.Graphics.Colors.LavenderBlush",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.LawnGreen": {
+    "value": "Microsoft.Maui.Graphics.Colors.LawnGreen",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.LemonChiffon": {
+    "value": "Microsoft.Maui.Graphics.Colors.LemonChiffon",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.LightBlue": {
+    "value": "Microsoft.Maui.Graphics.Colors.LightBlue",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.LightCoral": {
+    "value": "Microsoft.Maui.Graphics.Colors.LightCoral",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.LightCyan": {
+    "value": "Microsoft.Maui.Graphics.Colors.LightCyan",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.LightGoldenrodYellow": {
+    "value": "Microsoft.Maui.Graphics.Colors.LightGoldenrodYellow",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.LightGray": {
+    "value": "Microsoft.Maui.Graphics.Colors.LightGray",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.LightGreen": {
+    "value": "Microsoft.Maui.Graphics.Colors.LightGreen",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.LightPink": {
+    "value": "Microsoft.Maui.Graphics.Colors.LightPink",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.LightSalmon": {
+    "value": "Microsoft.Maui.Graphics.Colors.LightSalmon",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.LightSeaGreen": {
+    "value": "Microsoft.Maui.Graphics.Colors.LightSeaGreen",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.LightSkyBlue": {
+    "value": "Microsoft.Maui.Graphics.Colors.LightSkyBlue",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.LightSlateGray": {
+    "value": "Microsoft.Maui.Graphics.Colors.LightSlateGray",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.LightSteelBlue": {
+    "value": "Microsoft.Maui.Graphics.Colors.LightSteelBlue",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.LightYellow": {
+    "value": "Microsoft.Maui.Graphics.Colors.LightYellow",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.Lime": {
+    "value": "Microsoft.Maui.Graphics.Colors.Lime",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.LimeGreen": {
+    "value": "Microsoft.Maui.Graphics.Colors.LimeGreen",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.Linen": {
+    "value": "Microsoft.Maui.Graphics.Colors.Linen",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.Magenta": {
+    "value": "Microsoft.Maui.Graphics.Colors.Magenta",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.Maroon": {
+    "value": "Microsoft.Maui.Graphics.Colors.Maroon",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.MediumAquamarine": {
+    "value": "Microsoft.Maui.Graphics.Colors.MediumAquamarine",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.MediumBlue": {
+    "value": "Microsoft.Maui.Graphics.Colors.MediumBlue",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.MediumOrchid": {
+    "value": "Microsoft.Maui.Graphics.Colors.MediumOrchid",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.MediumPurple": {
+    "value": "Microsoft.Maui.Graphics.Colors.MediumPurple",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.MediumSeaGreen": {
+    "value": "Microsoft.Maui.Graphics.Colors.MediumSeaGreen",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.MediumSlateBlue": {
+    "value": "Microsoft.Maui.Graphics.Colors.MediumSlateBlue",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.MediumSpringGreen": {
+    "value": "Microsoft.Maui.Graphics.Colors.MediumSpringGreen",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.MediumTurquoise": {
+    "value": "Microsoft.Maui.Graphics.Colors.MediumTurquoise",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.MediumVioletRed": {
+    "value": "Microsoft.Maui.Graphics.Colors.MediumVioletRed",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.MidnightBlue": {
+    "value": "Microsoft.Maui.Graphics.Colors.MidnightBlue",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.MintCream": {
+    "value": "Microsoft.Maui.Graphics.Colors.MintCream",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.MistyRose": {
+    "value": "Microsoft.Maui.Graphics.Colors.MistyRose",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.Moccasin": {
+    "value": "Microsoft.Maui.Graphics.Colors.Moccasin",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.NavajoWhite": {
+    "value": "Microsoft.Maui.Graphics.Colors.NavajoWhite",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.Navy": {
+    "value": "Microsoft.Maui.Graphics.Colors.Navy",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.OldLace": {
+    "value": "Microsoft.Maui.Graphics.Colors.OldLace",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.Olive": {
+    "value": "Microsoft.Maui.Graphics.Colors.Olive",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.OliveDrab": {
+    "value": "Microsoft.Maui.Graphics.Colors.OliveDrab",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.Orange": {
+    "value": "Microsoft.Maui.Graphics.Colors.Orange",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.OrangeRed": {
+    "value": "Microsoft.Maui.Graphics.Colors.OrangeRed",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.Orchid": {
+    "value": "Microsoft.Maui.Graphics.Colors.Orchid",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.PaleGoldenrod": {
+    "value": "Microsoft.Maui.Graphics.Colors.PaleGoldenrod",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.PaleGreen": {
+    "value": "Microsoft.Maui.Graphics.Colors.PaleGreen",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.PaleTurquoise": {
+    "value": "Microsoft.Maui.Graphics.Colors.PaleTurquoise",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.PaleVioletRed": {
+    "value": "Microsoft.Maui.Graphics.Colors.PaleVioletRed",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.PapayaWhip": {
+    "value": "Microsoft.Maui.Graphics.Colors.PapayaWhip",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.PeachPuff": {
+    "value": "Microsoft.Maui.Graphics.Colors.PeachPuff",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.Peru": {
+    "value": "Microsoft.Maui.Graphics.Colors.Peru",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.Pink": {
+    "value": "Microsoft.Maui.Graphics.Colors.Pink",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.Plum": {
+    "value": "Microsoft.Maui.Graphics.Colors.Plum",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.PowderBlue": {
+    "value": "Microsoft.Maui.Graphics.Colors.PowderBlue",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.Purple": {
+    "value": "Microsoft.Maui.Graphics.Colors.Purple",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.Red": {
+    "value": "Microsoft.Maui.Graphics.Colors.Red",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.RosyBrown": {
+    "value": "Microsoft.Maui.Graphics.Colors.RosyBrown",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.RoyalBlue": {
+    "value": "Microsoft.Maui.Graphics.Colors.RoyalBlue",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.SaddleBrown": {
+    "value": "Microsoft.Maui.Graphics.Colors.SaddleBrown",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.Salmon": {
+    "value": "Microsoft.Maui.Graphics.Colors.Salmon",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.SandyBrown": {
+    "value": "Microsoft.Maui.Graphics.Colors.SandyBrown",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.SeaGreen": {
+    "value": "Microsoft.Maui.Graphics.Colors.SeaGreen",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.SeaShell": {
+    "value": "Microsoft.Maui.Graphics.Colors.SeaShell",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.Sienna": {
+    "value": "Microsoft.Maui.Graphics.Colors.Sienna",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.Silver": {
+    "value": "Microsoft.Maui.Graphics.Colors.Silver",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.SkyBlue": {
+    "value": "Microsoft.Maui.Graphics.Colors.SkyBlue",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.SlateBlue": {
+    "value": "Microsoft.Maui.Graphics.Colors.SlateBlue",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.SlateGray": {
+    "value": "Microsoft.Maui.Graphics.Colors.SlateGray",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.Snow": {
+    "value": "Microsoft.Maui.Graphics.Colors.Snow",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.SpringGreen": {
+    "value": "Microsoft.Maui.Graphics.Colors.SpringGreen",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.SteelBlue": {
+    "value": "Microsoft.Maui.Graphics.Colors.SteelBlue",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.Tan": {
+    "value": "Microsoft.Maui.Graphics.Colors.Tan",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.Teal": {
+    "value": "Microsoft.Maui.Graphics.Colors.Teal",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.Thistle": {
+    "value": "Microsoft.Maui.Graphics.Colors.Thistle",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.Tomato": {
+    "value": "Microsoft.Maui.Graphics.Colors.Tomato",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.Transparent": {
+    "value": "Microsoft.Maui.Graphics.Colors.Transparent",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.Turquoise": {
+    "value": "Microsoft.Maui.Graphics.Colors.Turquoise",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.Violet": {
+    "value": "Microsoft.Maui.Graphics.Colors.Violet",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.Wheat": {
+    "value": "Microsoft.Maui.Graphics.Colors.Wheat",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.White": {
+    "value": "Microsoft.Maui.Graphics.Colors.White",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.WhiteSmoke": {
+    "value": "Microsoft.Maui.Graphics.Colors.WhiteSmoke",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.Yellow": {
+    "value": "Microsoft.Maui.Graphics.Colors.Yellow",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.Color.YellowGreen": {
+    "value": "Microsoft.Maui.Graphics.Colors.YellowGreen",
+    "kind": "property",
+    "isStatic": true,
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/dotnet/maui/migration/forms-projects#color-changes"
+  },
+  "Xamarin.Forms.AbsoluteLayout.IAbsoluteList<T>.Add": {
+    "kind": "method",
+    "state": "Removed",
+    "documentationUrl": "https://learn.microsoft.com/en-us/dotnet/maui/migration/forms-projects#layout-changes"
+  },
+  "Xamarin.Forms.Grid.IGridList<T>.Add": {
+    "kind": "method",
+    "state": "Removed",
+    "documentationUrl": "https://learn.microsoft.com/en-us/dotnet/maui/migration/forms-projects#layout-changes"
+  },
+  "Xamarin.Forms.Grid.IGridList<T>.AddHorizontal": {
+    "kind": "method",
+    "state": "Removed",
+    "documentationUrl": "https://learn.microsoft.com/en-us/dotnet/maui/migration/forms-projects#layout-changes"
+  },
+  "Xamarin.Forms.Grid.IGridList<T>.AddVertical": {
+    "kind": "method",
+    "state": "Removed",
+    "documentationUrl": "https://learn.microsoft.com/en-us/dotnet/maui/migration/forms-projects#layout-changes"
+  },
+  "Xamarin.Forms.Device.Android": {
+    "value": "Microsoft.Maui.Devices.DevicePlatform.Android",
+    "kind": "property",
+    "state": "Replaced",
+    "documentationUrl": "https://learn.microsoft.com/en-us/dotnet/maui/migration/forms-projects#device-changes"
+  },
+  "Xamarin.Forms.Device.iOS": {
+    "value": "Microsoft.Maui.Devices.DevicePlatform.iOS",
+    "kind": "property",
+    "state": "Replaced",
+    "documentationUrl": "https://learn.microsoft.com/en-us/dotnet/maui/migration/forms-projects#device-changes"
+  },
+  "Xamarin.Forms.Device.GTK": {
+    "kind": "property",
+    "state": "Removed",
+    "documentationUrl": "https://learn.microsoft.com/en-us/dotnet/maui/migration/forms-projects#device-changes"
+  },
+  "Xamarin.Forms.Device.macOS": {
+    "value": "Microsoft.Maui.Devices.DevicePlatform.MacCatalyst",
+    "kind": "property",
+    "state": "Replaced",
+    "documentationUrl": "https://learn.microsoft.com/en-us/dotnet/maui/migration/forms-projects#device-changes"
+  },
+  "Xamarin.Forms.Device.Tizen": {
+    "value": "Microsoft.Maui.Devices.DevicePlatform.Tizen",
+    "kind": "property",
+    "state": "Replaced",
+    "documentationUrl": "https://learn.microsoft.com/en-us/dotnet/maui/migration/forms-projects#device-changes"
+  },
+  "Xamarin.Forms.Device.UWP": {
+    "value": "Microsoft.Maui.Devices.DevicePlatform.WinUI",
+    "kind": "property",
+    "state": "Replaced",
+    "documentationUrl": "https://learn.microsoft.com/en-us/dotnet/maui/migration/forms-projects#device-changes"
+  },
+  "Xamarin.Forms.Device.WPF": {
+    "kind": "property",
+    "state": "Removed",
+    "documentationUrl": "https://learn.microsoft.com/en-us/dotnet/maui/migration/forms-projects#device-changes"
+  },
+  "Xamarin.Forms.Device.Flags": {
+    "kind": "property",
+    "state": "Removed",
+    "documentationUrl": "https://learn.microsoft.com/en-us/dotnet/maui/migration/forms-projects#device-changes"
+  },
+  "Xamarin.Forms.Device.FlowDirection": {
+    "value": "Microsoft.Maui.ApplicationModel.AppInfo.RequestedLayoutDirection",
+    "kind": "property",
+    "state": "Replaced",
+    "documentationUrl": "https://learn.microsoft.com/en-us/dotnet/maui/migration/forms-projects#device-changes"
+  },
+  "Xamarin.Forms.Device.Idiom": {
+    "value": "Microsoft.Maui.Devices.DeviceInfo.Idiom",
+    "kind": "property",
+    "state": "Replaced",
+    "documentationUrl": "https://learn.microsoft.com/en-us/dotnet/maui/migration/forms-projects#device-changes"
+  },
+  "Xamarin.Forms.Device.IsInvokeRequired": {
+    "value": "Microsoft.Maui.Dispatching.Dispatcher.IsDispatchRequired",
+    "kind": "property",
+    "state": "Replaced",
+    "documentationUrl": "https://learn.microsoft.com/en-us/dotnet/maui/migration/forms-projects#device-changes"
+  },
+  "Xamarin.Forms.Device.OS": {
+    "value": "Microsoft.Maui.Devices.DeviceInfo.Platform",
+    "kind": "property",
+    "state": "Replaced",
+    "needsManualUpgrade": true,
+    "documentationUrl": "https://learn.microsoft.com/en-us/dotnet/maui/migration/forms-projects#device-changes"
+  },
+  "Xamarin.Forms.Device.RuntimePlatform": {
+    "value": "Microsoft.Maui.Devices.DeviceInfo.Platform",
+    "kind": "property",
+    "state": "Replaced",
+    "needsManualUpgrade": true,
+    "documentationUrl": "https://learn.microsoft.com/en-us/dotnet/maui/migration/forms-projects#device-changes"
+  },
+  "Xamarin.Forms.Device.BeginInvokeOnMainThread": {
+    "value": "Microsoft.Maui.ApplicationModel.Mainthread.BeginInvokeOnMainThread",
+    "kind": "method",
+    "state": "Replaced",
+    "documentationUrl": "https://learn.microsoft.com/en-us/dotnet/maui/migration/forms-projects#device-changes"
+  },
+  "Xamarin.Forms.Device.GetMainThreadSynchronizationContextAsync": {
+    "value": "Microsoft.Maui.ApplicationModel.Mainthread.GetSynchronizationContextAsync",
+    "kind": "method",
+    "isAsync": true,
+    "state": "Replaced",
+    "documentationUrl": "https://learn.microsoft.com/en-us/dotnet/maui/migration/forms-projects#device-changes"
+  },
+  "Xamarin.Forms.Device.GetNamedColor": {
+    "kind": "method",
+    "state": "Removed",
+    "documentationUrl": "https://learn.microsoft.com/en-us/dotnet/maui/migration/forms-projects#device-changes"
+  },
+  "Xamarin.Forms.Device.GetNamedSize": {
+    "kind": "method",
+    "state": "Removed",
+    "documentationUrl": "https://learn.microsoft.com/en-us/dotnet/maui/migration/forms-projects#device-changes"
+  },
+  "Xamarin.Forms.Device.Invalidate": {
+    "kind": "method",
+    "state": "Removed",
+    "documentationUrl": "https://learn.microsoft.com/en-us/dotnet/maui/migration/forms-projects#device-changes"
+  },
+  "Xamarin.Forms.Device.InvokeOnMainThreadAsync": {
+    "value": "Microsoft.Maui.ApplicationModel.MainThread.InvokeOnMainThreadAsync",
+    "kind": "method",
+    "isAsync": true,
+    "state": "Replaced",
+    "documentationUrl": "https://learn.microsoft.com/en-us/dotnet/maui/migration/forms-projects#device-changes"
+  },
+  "Xamarin.Forms.Device.OnPlatform": {
+    "kind": "method",
+    "state": "Removed",
+    "documentationUrl": "https://learn.microsoft.com/en-us/dotnet/maui/migration/forms-projects#device-changes"
+  },
+  "Xamarin.Forms.Device.OpenUri": {
+    "value": "Microsoft.Maui.ApplicationModel.Launcher.OpenAsync",
+    "kind": "method",
+    "state": "Replaced",
+    "isAsync": true,
+    "documentationUrl": "https://learn.microsoft.com/en-us/dotnet/maui/migration/forms-projects#device-changes"
+  },
+  "Xamarin.Forms.Device.SetFlags": {
+    "kind": "property",
+    "state": "Removed",
+    "documentationUrl": "https://learn.microsoft.com/en-us/dotnet/maui/migration/forms-projects#device-changes"
+  },
+  "Xamarin.Forms.Device.SetFlowDirection": {
+    "value": "Microsoft.Maui.Controls.Window.FlowDirection",
+    "kind": "method",
+    "state": "Replaced",
+    "needsManualUpgrade": true,
+    "documentationUrl": "https://learn.microsoft.com/en-us/dotnet/maui/migration/forms-projects#device-changes"
+  },
+  "Xamarin.Forms.Device.StartTimer": {
+    "value": "Microsoft.Maui.Dispatching.DispatcherExtensions.StartTimer",
+    "kind": "method",
+    "state": "Replaced",
+    "needsManualUpgrade": true,
+    "documentationUrl": "https://learn.microsoft.com/en-us/dotnet/maui/migration/forms-projects#device-changes"
+  },
+  "Xamarin.Forms.Maps.Map.HasScrollEnabled": {
+    "value": "Microsoft.Maui.Controls.Maps.Map.IsScrollEnabled",
+    "kind": "property",
+    "state": "Replaced",
+    "documentationUrl": "https://learn.microsoft.com/en-us/dotnet/maui/migration/forms-projects#map-changes"
+  },
+  "Xamarin.Forms.Maps.Map.HasZoomEnabled": {
+    "value": "Microsoft.Maui.Controls.Maps.Map.IsZoomEnabled",
+    "kind": "property",
+    "state": "Replaced",
+    "documentationUrl": "https://learn.microsoft.com/en-us/dotnet/maui/migration/forms-projects#map-changes"
+  },
+  "Xamarin.Forms.Maps.Map.TrafficEnabled": {
+    "value": "Microsoft.Maui.Controls.Maps.Map.IsTrafficEnabled",
+    "kind": "property",
+    "state": "Replaced",
+    "documentationUrl": "https://learn.microsoft.com/en-us/dotnet/maui/migration/forms-projects#map-changes"
+  },
+  "Xamarin.Forms.Maps.Map.MoveToLastRegionOnLayoutChange": {
+    "kind": "property",
+    "state": "Removed",
+    "documentationUrl": "https://learn.microsoft.com/en-us/dotnet/maui/migration/forms-projects#map-changes"
+  },
+  "Xamarin.Forms.Maps.Pin.Id": {
+    "value": "Microsoft.Maui.Controls.Maps.Map.Pin.MarkerId",
+    "kind": "property",
+    "state": "Replaced",
+    "documentationUrl": "https://learn.microsoft.com/en-us/dotnet/maui/migration/forms-projects#map-changes"
+  },
+  "Xamarin.Forms.Maps.Pin.Position": {
+    "value": "Microsoft.Maui.Controls.Maps.Pin.Location",
+    "kind": "property",
+    "state": "Replaced",
+    "documentationUrl": "https://learn.microsoft.com/en-us/dotnet/maui/migration/forms-projects#map-changes"
+  },
+  "Xamarin.Forms.Maps.MapClickedEventArgs.Position": {
+    "value": "Microsoft.Maui.Controls.Maps.MapClickedEventArgs.Location",
+    "kind": "property",
+    "state": "Replaced",
+    "documentationUrl": "https://learn.microsoft.com/en-us/dotnet/maui/migration/forms-projects#map-changes"
+  },
+  "Xamarin.Forms.Button.Image": {
+    "value": "Microsoft.Maui.Controls.Button.ImageSource",
+    "kind": "property",
+    "state": "Replaced",
+    "documentationUrl": "https://learn.microsoft.com/en-us/dotnet/maui/migration/forms-projects#other-changes"
+  },
+  "Xamarin.Forms.Frame.OutlineColor": {
+    "value": "Microsoft.Maui.Controls.Frame.BorderColor",
+    "kind": "property",
+    "state": "Replaced",
+    "documentationUrl": "https://learn.microsoft.com/en-us/dotnet/maui/migration/forms-projects#other-changes"
+  },
+  "Xamarin.Forms.MenuItem.Icon": {
+    "value": "Microsoft.Maui.Controls.MenuItem.IconImageSource",
+    "kind": "property",
+    "state": "Replaced",
+    "documentationUrl": "https://learn.microsoft.com/en-us/dotnet/maui/migration/forms-projects#other-changes"
+  },
+  "Xamarin.Forms.Span.ForegroundColor": {
+    "value": "Microsoft.Maui.Controls.Span.TextColor",
+    "kind": "property",
+    "state": "Replaced",
+    "documentationUrl": "https://learn.microsoft.com/en-us/dotnet/maui/migration/forms-projects#other-changes"
+  },
+  "Xamarin.Forms.ToolbarItem.Name": {
+    "value": "Microsoft.Maui.Controls.MenuItem.Text",
+    "kind": "property",
+    "state": "Replaced",
+    "documentationUrl": "https://learn.microsoft.com/en-us/dotnet/maui/migration/forms-projects#other-changes"
+  }
+}

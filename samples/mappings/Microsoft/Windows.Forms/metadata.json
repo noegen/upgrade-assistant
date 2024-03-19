@@ -1,0 +1,4 @@
+﻿{
+  "traits": "WinForms & {TargetFramework.Version<5.0}",
+  "order": 100
+}

@@ -1,0 +1,8 @@
+﻿{
+  "Debug.Listeners": {
+    "value": "Trace.Listeners",
+    "kind": "property",
+    "state": "Replaced",
+    "isStatic": true
+  }
+}

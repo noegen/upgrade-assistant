@@ -1,0 +1,7 @@
+{
+  "Microsoft.Azure.WebJobs.Host.TraceWriter": {
+    "value": "Microsoft.Extensions.Logging.ILogger",
+    "kind": "type",
+    "state": "Replaced"
+  }
+}

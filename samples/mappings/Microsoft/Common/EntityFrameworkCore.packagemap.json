@@ -1,0 +1,142 @@
+﻿{
+  "defaults": {
+    "frameworks": {
+      ".NETCoreApp,Version=v6.0": [
+        {
+          "version": "6.*"
+        }
+      ],
+      ".NETCoreApp,Version=v7.0": [
+        {
+          "version": "7.*"
+        }
+      ],
+      ".NETCoreApp,Version=v8.0": [
+        {
+          "version": "8.*"
+        }
+      ],
+      ".NETCoreApp,Version=v9.0": [
+        {
+          "version": "9.*",
+          "prerelease": true
+        }
+      ]
+    }
+  },
+  "packages": [
+    {
+      "name": "dotnet-ef"
+    },
+    {
+      "name": "Microsoft.Data.Sqlite"
+    },
+    {
+      "name": "Microsoft.Data.Sqlite.Core"
+    },
+    {
+      "name": "Microsoft.EntityFrameworkCore"
+    },
+    {
+      "name": "Microsoft.EntityFrameworkCore.Abstractions"
+    },
+    {
+      "name": "Microsoft.EntityFrameworkCore.Analyzers"
+    },
+    {
+      "name": "Microsoft.EntityFrameworkCore.AspNet.Specification.Tests"
+    },
+    {
+      "name": "Microsoft.EntityFrameworkCore.Cosmos"
+    },
+    {
+      "name": "Microsoft.EntityFrameworkCore.Design"
+    },
+    {
+      "name": "Microsoft.EntityFrameworkCore.InMemory"
+    },
+    {
+      "name": "Microsoft.EntityFrameworkCore.Proxies"
+    },
+    {
+      "name": "Microsoft.EntityFrameworkCore.Relational"
+    },
+    {
+      "name": "Microsoft.EntityFrameworkCore.Relational.Specification.Tests"
+    },
+    {
+      "name": "Microsoft.EntityFrameworkCore.Specification.Tests"
+    },
+    {
+      "name": "Microsoft.EntityFrameworkCore.Sqlite"
+    },
+    {
+      "name": "Microsoft.EntityFrameworkCore.Sqlite.Core"
+    },
+    {
+      "name": "Microsoft.EntityFrameworkCore.Sqlite.NetTopologySuite"
+    },
+    {
+      "name": "Microsoft.EntityFrameworkCore.SqlServer"
+    },
+    {
+      "name": "Microsoft.EntityFrameworkCore.SqlServer.Abstractions",
+      "frameworks": {
+        ".NETCoreApp,Version=v8.0": [
+          {
+            "version": "8.*"
+          }
+        ],
+        ".NETCoreApp,Version=v9.0": [
+          {
+            "version": "9.*",
+            "prerelease": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "Microsoft.EntityFrameworkCore.SqlServer.HierarchyId",
+      "frameworks": {
+        ".NETCoreApp,Version=v8.0": [
+          {
+            "version": "8.*"
+          }
+        ],
+        ".NETCoreApp,Version=v9.0": [
+          {
+            "version": "9.*",
+            "prerelease": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "Microsoft.EntityFrameworkCore.SqlServer.NetTopologySuite"
+    },
+    {
+      "name": "Microsoft.EntityFrameworkCore.Templates",
+      "frameworks": {
+        ".NETCoreApp,Version=v7.0": [
+          {
+            "version": "7.*"
+          }
+        ],
+        ".NETCoreApp,Version=v8.0": [
+          {
+            "version": "8.*"
+          }
+        ],
+        ".NETCoreApp,Version=v9.0": [
+          {
+            "version": "9.*",
+            "prerelease": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "Microsoft.EntityFrameworkCore.Tools"
+    }
+  ]
+}

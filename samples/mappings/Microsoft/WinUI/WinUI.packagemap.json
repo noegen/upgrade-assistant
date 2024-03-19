@@ -1,0 +1,34 @@
+﻿{
+  "packages": [
+    {
+      "name": "Microsoft.NETCore.UniversalWindowsPlatform",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [
+          {
+            "name": "Microsoft.WindowsAppSDK"
+          },
+          {
+            "name": "Microsoft.Graphics.Win2D"
+          },
+          {
+            "name": "Microsoft.Windows.Compatibility"
+          }
+        ],
+        ".NETStandard,Version=v2.0": [
+          {
+            "name": "Microsoft.WindowsAppSDK"
+          },
+          {
+            "name": "Microsoft.Graphics.Win2D"
+          },
+          {
+            "name": "Microsoft.Windows.Compatibility"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Microsoft.UI.Xaml"
+    }
+  ]
+}

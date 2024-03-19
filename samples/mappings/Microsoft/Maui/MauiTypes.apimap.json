@@ -1,0 +1,695 @@
+{
+  "Xamarin.Forms.FlowDirection": {
+    "value": "Microsoft.Maui.ApplicationModel.LayoutDirection",
+    "kind": "type",
+    "state": "Replaced",
+    "documentationUrl": "https://learn.microsoft.com/en-us/dotnet/maui/migration/forms-projects#layout-changes"
+  },
+  "Xamarin.Forms.RelativeLayout": {
+    "value": "Microsoft.Maui.Controls.Compatibility.RelativeLayout",
+    "kind": "type",
+    "state": "Replaced",
+    "documentationUrl": "https://learn.microsoft.com/en-us/dotnet/maui/migration/forms-projects#layout-changes"
+  },
+  "Xamarin.Forms.Rectangle": {
+    "value": "Microsoft.Maui.Graphics.Rect",
+    "kind": "type",
+    "state": "Replaced",
+    "documentationUrl": "https://learn.microsoft.com/en-us/dotnet/maui/migration/forms-projects#layout-changes"
+  },
+  "Xamarin.Forms.TargetIdiom": {
+    "value": "Microsoft.Maui.Devices.DeviceIdiom",
+    "kind": "type",
+    "state": "Replaced",
+    "documentationUrl": "https://learn.microsoft.com/en-us/dotnet/maui/migration/forms-projects#layout-changes"
+  },
+  "Xamarin.Forms.Layout<T>": {
+    "kind": "type",
+    "state": "Replaced",
+    "needsManualUpgrade": true,
+    "documentationUrl": "https://learn.microsoft.com/en-us/dotnet/maui/migration/forms-projects#custom-layout-changes"
+  },
+  "Xamarin.Forms.Maps.Position": {
+    "value": "Microsoft.Maui.Devices.Sensors.Location",
+    "kind": "type",
+    "state": "Replaced",
+    "documentationUrl": "https://learn.microsoft.com/en-us/dotnet/maui/migration/forms-projects#map-changes"
+  },
+  "Xamarin.Forms.Maps.Geocoder": {
+    "value": "Microsoft.Maui.Devices.Sensors.Geocoding",
+    "kind": "type",
+    "state": "Replaced",
+    "needsManualUpgrade": true,
+    "documentationUrl": "https://learn.microsoft.com/en-us/dotnet/maui/migration/forms-projects#map-changes"
+  },
+  "Xamarin.Forms.Internals.DeviceOrientation": {
+    "value": "Microsoft.Maui.Devices.DisplayOrientation",
+    "kind": "type",
+    "state": "Replaced",
+    "documentationUrl": "https://learn.microsoft.com/en-us/dotnet/maui/migration/forms-projects#other-changes"
+  },
+  "Xamarin.Forms.OSAppTheme": {
+    "value": "Microsoft.Maui.ApplicationModel.AppTheme",
+    "kind": "type",
+    "state": "Replaced",
+    "documentationUrl": "https://learn.microsoft.com/en-us/dotnet/maui/migration/forms-projects#other-changes"
+  },
+  "Xamarin.Forms.AbsoluteLayoutFlags": {
+    "value": "Microsoft.Maui.Layouts.AbsoluteLayoutFlags",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Forms.FlexAlignContent": {
+    "value": "Microsoft.Maui.Layouts.FlexAlignContent",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Forms.FlexAlignItems": {
+    "value": "Microsoft.Maui.Layouts.FlexAlignItems",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Forms.FlexAlignSelf": {
+    "value": "Microsoft.Maui.Layouts.FlexAlignSelf",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Forms.FlexBasis": {
+    "value": "Microsoft.Maui.Layouts.FlexBasis",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Forms.FlexDirection": {
+    "value": "Microsoft.Maui.Layouts.FlexDirection",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Forms.FlexJustify": {
+    "value": "Microsoft.Maui.Layouts.FlexJustify",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Forms.FlexPosition": {
+    "value": "Microsoft.Maui.Layouts.FlexPosition",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Forms.FlexWrap": {
+    "value": "Microsoft.Maui.Layouts.FlexWrap",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Forms.Platform.Android.FormsAppCompatActivity": {
+    "value": "Microsoft.Maui.MauiAppCompatActivity",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Forms.Platform.iOS.FormsApplicationDelegate": {
+    "value": "Microsoft.Maui.MauiUIApplicationDelegate",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.Accelerometer": {
+    "value": "Microsoft.Maui.Devices.Sensors.Accelerometer",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.AccelerometerChangedEventArgs": {
+    "value": "Microsoft.Maui.Devices.Sensors.AccelerometerChangedEventArgs",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.AccelerometerData": {
+    "value": "Microsoft.Maui.Devices.Sensors.AccelerometerData",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.AppActions": {
+    "value": "Microsoft.Maui.ApplicationModel.AppActions",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.AppActionEventArgs": {
+    "value": "Microsoft.Maui.ApplicationModel.AppActionEventArgs",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.AppAction": {
+    "value": "Microsoft.Maui.ApplicationModel.AppAction",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.AppInfo": {
+    "value": "Microsoft.Maui.ApplicationModel.AppInfo",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.AppTheme": {
+    "value": "Microsoft.Maui.ApplicationModel.AppTheme",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.Barometer": {
+    "value": "Microsoft.Maui.Devices.Sensors.Barometer",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.BarometerChangedEventArgs": {
+    "value": "Microsoft.Maui.Devices.Sensors.BarometerChangedEventArgs",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.BarometerData": {
+    "value": "Microsoft.Maui.Devices.Sensors.BarometerData",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.Battery": {
+    "value": "Microsoft.Maui.Devices.Battery",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.BatteryState": {
+    "value": "Microsoft.Maui.Devices.BatteryState",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.BatteryPowerSource": {
+    "value": "Microsoft.Maui.Devices.BatteryPowerSource",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.EnergySaverStatus": {
+    "value": "Microsoft.Maui.Devices.EnergySaverStatus",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.BatteryInfoChangedEventArgs": {
+    "value": "Microsoft.Maui.Devices.BatteryInfoChangedEventArgs",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.EnergySaverStatusChangedEventArgs": {
+    "value": "Microsoft.Maui.Devices.EnergySaverStatusChangedEventArgs",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.Browser": {
+    "value": "Microsoft.Maui.ApplicationModel.Browser",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.BrowserLaunchMode": {
+    "value": "Microsoft.Maui.ApplicationModel.BrowserLaunchMode",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.BrowserLaunchOptions": {
+    "value": "Microsoft.Maui.ApplicationModel.BrowserLaunchOptions",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.BrowserLaunchFlags": {
+    "value": "Microsoft.Maui.ApplicationModel.BrowserLaunchFlags",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.BrowserTitleMode": {
+    "value": "Microsoft.Maui.ApplicationModel.BrowserTitleMode",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.Clipboard": {
+    "value": "Microsoft.Maui.ApplicationModel.DataTransfer.Clipboard",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.Compass": {
+    "value": "Microsoft.Maui.Devices.Sensors.Compass",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.CompassChangedEventArgs": {
+    "value": "Microsoft.Maui.Devices.Sensors.CompassChangedEventArgs",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.CompassData": {
+    "value": "Microsoft.Maui.Devices.Sensors.CompassData",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.Connectivity": {
+    "value": "Microsoft.Maui.Networking.Connectivity",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.ConnectivityChangedEventArgs": {
+    "value": "Microsoft.Maui.Networking.ConnectivityChangedEventArgs",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.Contacts": {
+    "value": "Microsoft.Maui.ApplicationModel.Communication.Contacts",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.DeviceDisplay": {
+    "value": "Microsoft.Maui.Devices.DeviceDisplay",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.DisplayInfoChangedEventArgs": {
+    "value": "Microsoft.Maui.Devices.DisplayInfoChangedEventArgs",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.DeviceInfo": {
+    "value": "Microsoft.Maui.Devices.DeviceInfo",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.DeviceType": {
+    "value": "Microsoft.Maui.Devices.DeviceType",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.Email": {
+    "value": "Microsoft.Maui.ApplicationModel.Communication.Email",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.EmailMessage": {
+    "value": "Microsoft.Maui.ApplicationModel.Communication.EmailMessage",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.EmailBodyFormat": {
+    "value": "Microsoft.Maui.ApplicationModel.Communication.EmailBodyFormat",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.EmailAttachment": {
+    "value": "Microsoft.Maui.ApplicationModel.Communication.EmailAttachment",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.FilePicker": {
+    "value": "Microsoft.Maui.Storage.FilePicker",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.FilePickerFileType": {
+    "value": "Microsoft.Maui.Storage.FilePickerFileType",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.PickOptions": {
+    "value": "Microsoft.Maui.Storage.PickOptions",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.FileSystem": {
+    "value": "Microsoft.Maui.Storage.FileSystem",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.FileBase": {
+    "value": "Microsoft.Maui.Storage.FileBase",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.ReadOnlyFile": {
+    "value": "Microsoft.Maui.Storage.ReadOnlyFile",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.FileResult": {
+    "value": "Microsoft.Maui.Storage.FileResult",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.Flashlight": {
+    "value": "Microsoft.Maui.Devices.Flashlight",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.Geocoding": {
+    "value": "Microsoft.Maui.Devices.Sensors.Geocoding",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.Geolocation": {
+    "value": "Microsoft.Maui.Devices.Sensors.Geolocation",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.GeolocationAccuracy": {
+    "value": "Microsoft.Maui.Devices.Sensors.GeolocationAccuracy",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.GeolocationRequest": {
+    "value": "Microsoft.Maui.Devices.Sensors.GeolocationRequest",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.Gyroscope": {
+    "value": "Microsoft.Maui.Devices.Sensors.Gyroscope",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.GyroscopeChangedEventArgs": {
+    "value": "Microsoft.Maui.Devices.Sensors.GyroscopeChangedEventArgs",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.GyroscopeData": {
+    "value": "Microsoft.Maui.Devices.Sensors.GyroscopeData",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.HapticFeedback": {
+    "value": "Microsoft.Maui.Devices.HapticFeedback",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.HapticFeedbackType": {
+    "value": "Microsoft.Maui.Devices.HapticFeedbackType",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.Launcher": {
+    "value": "Microsoft.Maui.ApplicationModel.Launcher",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.OpenFileRequest": {
+    "value": "Microsoft.Maui.ApplicationModel.OpenFileRequest",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.Magnetometer": {
+    "value": "Microsoft.Maui.Devices.Sensors.Magnetometer",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.MagnetometerChangedEventArgs": {
+    "value": "Microsoft.Maui.Devices.Sensors.MagnetometerChangedEventArgs",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.MagnetometerData": {
+    "value": "Microsoft.Maui.Devices.Sensors.MagnetometerData",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.MainThread": {
+    "value": "Microsoft.Maui.ApplicationModel.MainThread",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.Map": {
+    "value": "Microsoft.Maui.ApplicationModel.Map",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.MapLaunchOptions": {
+    "value": "Microsoft.Maui.ApplicationModel.MapLaunchOptions",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.NavigationMode": {
+    "value": "Microsoft.Maui.ApplicationModel.NavigationMode",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.MediaPicker": {
+    "value": "Microsoft.Maui.Media.MediaPicker",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.MediaPickerOptions": {
+    "value": "Microsoft.Maui.Media.MediaPickerOptions",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.OrientationSensor": {
+    "value": "Microsoft.Maui.Devices.Sensors.OrientationSensor",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.OrientationSensorChangedEventArgs": {
+    "value": "Microsoft.Maui.Devices.Sensors.OrientationSensorChangedEventArgs",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.OrientationSensorData": {
+    "value": "Microsoft.Maui.Devices.Sensors.OrientationSensorData",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.Permissions": {
+    "value": "Microsoft.Maui.ApplicationModel.Permissions",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.PhoneDialer": {
+    "value": "Microsoft.Maui.ApplicationModel.Communication.PhoneDialer",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.Preferences": {
+    "value": "Microsoft.Maui.Storage.Preferences",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.Screenshot": {
+    "value": "Microsoft.Maui.Media.Screenshot",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.ScreenshotFormat": {
+    "value": "Microsoft.Maui.Media.ScreenshotFormat",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.SecureStorage": {
+    "value": "Microsoft.Maui.Storage.SecureStorage",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.Share": {
+    "value": "Microsoft.Maui.ApplicationModel.DataTransfer.Share",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.ShareRequestBase": {
+    "value": "Microsoft.Maui.ApplicationModel.DataTransfer.ShareRequestBase",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.ShareTextRequest": {
+    "value": "Microsoft.Maui.ApplicationModel.DataTransfer.ShareTextRequest",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.ShareFileRequest": {
+    "value": "Microsoft.Maui.ApplicationModel.DataTransfer.ShareFileRequest",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.ShareMultipleFilesRequest": {
+    "value": "Microsoft.Maui.ApplicationModel.DataTransfer.ShareMultipleFilesRequest",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.ShareFile": {
+    "value": "Microsoft.Maui.ApplicationModel.DataTransfer.ShareFile",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.Sms": {
+    "value": "Microsoft.Maui.ApplicationModel.Communication.Sms",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.SmsMessage": {
+    "value": "Microsoft.Maui.ApplicationModel.Communication.SmsMessage",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.TextToSpeech": {
+    "value": "Microsoft.Maui.Media.TextToSpeech",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.Locale": {
+    "value": "Microsoft.Maui.Media.Locale",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.SpeechOptions": {
+    "value": "Microsoft.Maui.Media.SpeechOptions",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.Contact": {
+    "value": "Microsoft.Maui.ApplicationModel.Communication.Contact",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.ContactEmail": {
+    "value": "Microsoft.Maui.ApplicationModel.Communication.ContactEmail",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.ContactPhone": {
+    "value": "Microsoft.Maui.ApplicationModel.Communication.ContactPhone",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.DeviceIdiom": {
+    "value": "Microsoft.Maui.Devices.DeviceIdiom",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.DevicePlatform": {
+    "value": "Microsoft.Maui.Devices.DevicePlatform",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.DisplayInfo": {
+    "value": "Microsoft.Maui.Devices.DisplayInfo",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.DisplayOrientation": {
+    "value": "Microsoft.Maui.Devices.DisplayOrientation",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.DisplayRotation": {
+    "value": "Microsoft.Maui.Devices.DisplayRotation",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.DistanceUnits": {
+    "value": "Microsoft.Maui.Devices.Sensors.DistanceUnits",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.AltitudeReferenceSystem": {
+    "value": "Microsoft.Maui.Devices.Sensors.AltitudeReferenceSystem",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.Location": {
+    "value": "Microsoft.Maui.Devices.Sensors.Location",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.LocationExtensions": {
+    "value": "Microsoft.Maui.Devices.Sensors.LocationExtensions",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.Placemark": {
+    "value": "Microsoft.Maui.Devices.Sensors.Placemark",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.PlacemarkExtensions": {
+    "value": "Microsoft.Maui.Devices.Sensors.PlacemarkExtensions",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.SensorSpeed": {
+    "value": "Microsoft.Maui.Devices.Sensors.SensorSpeed",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.PermissionException": {
+    "value": "Microsoft.Maui.ApplicationModel.PermissionException",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.FeatureNotSupportedException": {
+    "value": "Microsoft.Maui.ApplicationModel.FeatureNotSupportedException",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.FeatureNotEnabledException": {
+    "value": "Microsoft.Maui.ApplicationModel.FeatureNotEnabledException",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.UnitConverters": {
+    "value": "Microsoft.Maui.Media.UnitConverters",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.VersionTracking": {
+    "value": "Microsoft.Maui.ApplicationModel.VersionTracking",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.Vibration": {
+    "value": "Microsoft.Maui.Devices.Vibration",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.AppleSignInAuthenticator": {
+    "value": "Microsoft.Maui.Authentication.AppleSignInAuthenticator",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.WebAuthenticator": {
+    "value": "Microsoft.Maui.Authentication.WebAuthenticator",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.WebAuthenticatorOptions": {
+    "value": "Microsoft.Maui.Authentication.WebAuthenticatorOptions",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.WebAuthenticatorResult": {
+    "value": "Microsoft.Maui.Authentication.WebAuthenticatorResult",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.ConnectionProfile": {
+    "value": "Microsoft.Maui.Networking.ConnectionProfile",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.NetworkAccess": {
+    "value": "Microsoft.Maui.Networking.NetworkAccess",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Xamarin.Essentials.PermissionStatus": {
+    "value": "Microsoft.Maui.ApplicationModel.PermissionStatus",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "System.nint": {
+    "value": "nint",
+    "kind": "type",
+    "state": "Replaced",
+    "documentationUrl": "https://github.com/xamarin/xamarin-macios/issues/13087"
+  },
+  "System.nuint": {
+    "value": "nuint",
+    "kind": "type",
+    "state": "Replaced",
+    "documentationUrl": "https://github.com/xamarin/xamarin-macios/issues/13087"
+  },
+  "System.nfloat": {
+    "value": "System.Runtime.InteropServices.NFloat",
+    "kind": "type",
+    "state": "Replaced",
+    "documentationUrl": "https://github.com/xamarin/xamarin-macios/issues/13087"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "Microsoft.Azure.WebJobs.FunctionNameAttribute": {
+    "value": "Microsoft.Azure.Functions.Worker.FunctionAttribute",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Microsoft.Azure.WebJobs.BlobAttribute": {
+    "value": "Microsoft.Azure.Functions.Worker.BlobInputAttribute",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Microsoft.Azure.WebJobs.BlobTriggerAttribute": {
+    "value": "Microsoft.Azure.Functions.Worker.BlobTriggerAttribute",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Microsoft.Azure.WebJobs.CosmosDBAttribute": {
+    "value": "Microsoft.Azure.Functions.Worker.CosmosDBInputAttribute",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Microsoft.Azure.WebJobs.CosmosDBTriggerAttribute": {
+    "value": "Microsoft.Azure.Functions.Worker.CosmosDBTriggerAttribute",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Microsoft.Azure.WebJobs.EventGridTriggerAttribute": {
+    "value": "Microsoft.Azure.Functions.Worker.EventGridTriggerAttribute",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Microsoft.Azure.WebJobs.EventHubTriggerAttribute": {
+    "value": "Microsoft.Azure.Functions.Worker.EventHubTriggerAttribute",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Microsoft.Azure.WebJobs.Extensions.DurableTask.ActivityTriggerAttribute": {
+    "value": "Microsoft.Azure.Functions.Worker.ActivityTriggerAttribute",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Microsoft.Azure.WebJobs.Extensions.DurableTask.DurableClientAttribute": {
+    "value": "Microsoft.Azure.Functions.Worker.DurableClientAttribute",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Microsoft.Azure.WebJobs.Extensions.DurableTask.OrchestrationTriggerAttribute": {
+    "value": "Microsoft.Azure.Functions.Worker.OrchestrationTriggerAttribute",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Microsoft.Azure.WebJobs.Extensions.SignalRService.SignalRConnectionInfoAttribute": {
+    "value": "Microsoft.Azure.Functions.Worker.SignalRConnectionInfoInputAttribute",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Microsoft.Azure.WebJobs.HttpTriggerAttribute": {
+    "value": "Microsoft.Azure.Functions.Worker.HttpTriggerAttribute",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Microsoft.Azure.WebJobs.QueueTriggerAttribute": {
+    "value": "Microsoft.Azure.Functions.Worker.QueueTriggerAttribute",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Microsoft.Azure.WebJobs.RabbitMQTriggerAttribute": {
+    "value": "Microsoft.Azure.Functions.Worker.RabbitMQTriggerAttribute",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Microsoft.Azure.WebJobs.ServiceBusTriggerAttribute": {
+    "value": "Microsoft.Azure.Functions.Worker.ServiceBusTrigger",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Microsoft.Azure.WebJobs.TableAttribute": {
+    "value": "Microsoft.Azure.Functions.Worker.TableInputAttribute",
+    "kind": "type",
+    "state": "Replaced"
+  },
+  "Microsoft.Azure.WebJobs.TimerTriggerAttribute": {
+    "value": "Microsoft.Azure.Functions.Worker.TimerTriggerAttribute",
+    "kind": "type",
+    "state": "Replaced"
+  }
+}

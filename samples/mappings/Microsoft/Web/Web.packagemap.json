@@ -1,0 +1,331 @@
+﻿{
+  "packages": [
+    {
+      "name": "Antlr",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [
+          {
+            "name": "Antlr4",
+            "version": "4.6.6"
+          }
+        ],
+        ".NETStandard,Version=v2.0": [
+          {
+            "name": "Antlr4",
+            "version": "4.6.6"
+          }
+        ]
+      }
+    },
+    {
+      "name": "dotnet-dev-certs"
+    },
+    {
+      "name": "dotnet-user-secrets"
+    },
+    {
+      "name": "dotnet-watch"
+    },
+    {
+      "name": "Microsoft.AspNet.Cors"
+    },
+    {
+      "name": "Microsoft.AspNet.Mvc"
+    },
+    {
+      "name": "Microsoft.AspNet.Razor"
+    },
+    {
+      "name": "Microsoft.AspNet.WebPages"
+    },
+    {
+      "name": "Microsoft.AspNet.WebApi"
+    },
+    {
+      "name": "Microsoft.AspNetCore"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Antiforgery"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Authentication"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Authentication.Abstractions"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Authentication.Cookies"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Authentication.Core"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Authentication.OAuth"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Authorization.Policy"
+    },
+    {
+      "name": "Microsoft.AspNetCore.CookiePolicy"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Components.WebAssembly.Build"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Components.WebAssembly.HttpHandler"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Cors"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Diagnostics"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Diagnostics.Abstractions"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Diagnostics.HealthChecks"
+    },
+    {
+      "name": "Microsoft.AspNetCore.HostFiltering"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Hosting.Abstractions"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Hosting.Server.Abstractions"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Hosting"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Html.Abstractions"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Http"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Http.Abstractions"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Http.Connections"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Http.Extensions"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Http.Features"
+    },
+    {
+      "name": "Microsoft.AspNetCore.HttpOverrides"
+    },
+    {
+      "name": "Microsoft.AspNetCore.HttpsPolicy"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Identity"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Localization"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Localization.Routing"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Mvc"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Mvc.Abstractions"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Mvc.Analyzers"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Mvc.Api.Analyzers"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Mvc.ApiExplorer"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Mvc.Core"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Mvc.Cors"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Mvc.DataAnnotations"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Mvc.Formatters.Json"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Mvc.Formatters.Xml"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Mvc.Localization"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Mvc.Razor"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Mvc.Razor.ViewCompilation"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Mvc.RazorPages"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Mvc.TagHelpers"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Mvc.ViewFeatures"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Razor"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Razor.Language"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Razor.Runtime"
+    },
+    {
+      "name": "Microsoft.AspNetCore.ResponseCaching"
+    },
+    {
+      "name": "Microsoft.AspNetCore.ResponseCaching.Abstractions"
+    },
+    {
+      "name": "Microsoft.AspNetCore.ResponseCompression"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Rewrite"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Routing"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Routing.Abstractions"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Server.HttpSys"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Server.IISIntegration"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Server.Kestrel"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Server.Kestrel.Core"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Server.Kestrel.Https"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Server.Kestrel.Transport.Experimental.Quic"
+    },
+    {
+      "name": "Microsoft.AspNetCore.Session"
+    },
+    {
+      "name": "Microsoft.AspNetCore.SignalR"
+    },
+    {
+      "name": "Microsoft.AspNet.SignalR.Core",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [
+          {
+            "name": "Microsoft.AspNetCore.SignalR.Client",
+            "version": "6.*"
+          }
+        ],
+        ".NETCoreApp,Version=v7.0": [
+          {
+            "name": "Microsoft.AspNetCore.SignalR.Client",
+            "version": "7.*"
+          }
+        ],
+        ".NETCoreApp,Version=v8.0": [
+          {
+            "name": "Microsoft.AspNetCore.SignalR.Client",
+            "version": "8.*"
+          }
+        ],
+        ".NETCoreApp,Version=v9.0": [
+          {
+            "name": "Microsoft.AspNetCore.SignalR.Client",
+            "version": "9.*",
+            "prerelease": true
+          }
+        ],
+        ".NETStandard,Version=v2.0": [
+          {
+            "name": "Microsoft.AspNetCore.SignalR.Client"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Microsoft.AspNetCore.SignalR",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [
+          {
+            "name": "Microsoft.AspNetCore.SignalR.Client",
+            "version": "6.*"
+          }
+        ],
+        ".NETCoreApp,Version=v7.0": [
+          {
+            "name": "Microsoft.AspNetCore.SignalR.Client",
+            "version": "7.*"
+          }
+        ],
+        ".NETCoreApp,Version=v8.0": [
+          {
+            "name": "Microsoft.AspNetCore.SignalR.Client",
+            "version": "8.*"
+          }
+        ],
+        ".NETCoreApp,Version=v9.0": [
+          {
+            "name": "Microsoft.AspNetCore.SignalR.Client",
+            "version": "9.*",
+            "prerelease": true
+          }
+        ],
+        ".NETStandard,Version=v2.0": [
+          {
+            "name": "Microsoft.AspNetCore.SignalR.Client"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Microsoft.AspNetCore.StaticFiles"
+    },
+    {
+      "name": "Microsoft.AspNetCore.WebSockets"
+    },
+    {
+      "name": "Microsoft.AspNetCore.WebUtilities"
+    },
+    {
+      "name": "Microsoft.CodeAnalysis.Razor"
+    },
+    {
+      "name": "Microsoft.Net.Http.Headers"
+    },
+    {
+      "name": "Microsoft.Net.Sdk.Razor"
+    },
+    {
+      "name": "Microsoft.Web.Infrastructure"
+    }
+  ]
+}

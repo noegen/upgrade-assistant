@@ -1,0 +1,142 @@
+﻿{
+  "defaults": {
+    "frameworks": {
+      ".NETCoreApp,Version=v6.0": [
+        {
+          "version": "6.*"
+        }
+      ],
+      ".NETCoreApp,Version=v7.0": [
+        {
+          "version": "7.*"
+        }
+      ],
+      ".NETCoreApp,Version=v8.0": [
+        {
+          "version": "8.*"
+        }
+      ],
+      ".NETCoreApp,Version=v9.0": [
+        {
+          "version": "9.*",
+          "prerelease": true
+        }
+      ],
+      ".NETStandard,Version=v2.0": [
+        {
+          "version": ""
+        }
+      ]
+    }
+  },
+  "packages": [
+    {
+      "name": "Microsoft.CodeAnalysis.Razor",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [
+          {
+            "version": ""
+          }
+        ],
+        ".NETStandard,Version=v2.0": [
+          {
+            "version": ""
+          }
+        ],
+        ".NETCoreApp,Version=v8.0": []
+      }
+    },
+    {
+      "name": "Microsoft.Extensions.ApiDescription.Client"
+    },
+    {
+      "name": "Microsoft.Extensions.ApiDescription.Server"
+    },
+    {
+      "name": "Microsoft.Extensions.Caching.SqlServer"
+    },
+    {
+      "name": "Microsoft.Extensions.Caching.StackExchangeRedis"
+    },
+    {
+      "name": "Microsoft.Extensions.Configuration.KeyPerFile"
+    },
+    {
+      "name": "Microsoft.Extensions.Diagnostics.HealthChecks"
+    },
+    {
+      "name": "Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions"
+    },
+    {
+      "name": "Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore"
+    },
+    {
+      "name": "Microsoft.Extensions.Features"
+    },
+    {
+      "name": "Microsoft.Extensions.FileProviders.Embedded"
+    },
+    {
+      "name": "Microsoft.Extensions.Http.Polly"
+    },
+    {
+      "name": "Microsoft.Extensions.Identity.Core"
+    },
+    {
+      "name": "Microsoft.Extensions.Identity.Stores"
+    },
+    {
+      "name": "Microsoft.Extensions.Localization"
+    },
+    {
+      "name": "Microsoft.Extensions.Localization.Abstractions"
+    },
+    {
+      "name": "Microsoft.Extensions.Logging.AzureAppServices"
+    },
+    {
+      "name": "Microsoft.Extensions.ObjectPool"
+    },
+    {
+      "name": "Microsoft.Extensions.WebEncoders"
+    },
+    {
+      "name": "Microsoft.JSInterop"
+    },
+    {
+      "name": "Microsoft.JSInterop.WebAssembly"
+    },
+    {
+      "name": "Microsoft.Net.Http.Headers"
+    },
+
+ 
+    // ASP.NET Core related packages
+
+    // Scaffolding
+    {
+      "name": "Microsoft.DotNet.Scaffolding.Shared"
+    },
+    {
+      "name": "Microsoft.VisualStudio.Web.CodeGeneration"
+    },
+    {
+      "name": "Microsoft.VisualStudio.Web.CodeGeneration.Design"
+    },
+    {
+      "name": "Microsoft.VisualStudio.Web.CodeGenerators.Mvc"
+    },
+    {
+      "name": "Microsoft.VisualStudio.Web.CodeGeneration.Templating"
+    },
+    {
+      "name": "Microsoft.VisualStudio.Web.CodeGeneration.Core"
+    },
+    {
+      "name": "Microsoft.VisualStudio.Web.CodeGeneration.Utils"
+    },
+    {
+      "name": "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore"
+    }
+  ]
+}

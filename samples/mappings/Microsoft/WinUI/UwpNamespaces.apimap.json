@@ -1,0 +1,187 @@
+﻿{
+  "Windows.ApplicationModel.Resources.Core": {
+    "value": "Microsoft.Windows.ApplicationModel.Resources",
+    "kind": "namespace",
+    "state": "Replaced"
+  },
+  "Windows.Graphics.DirectX": {
+    "value": "Microsoft.Graphics.DirectX",
+    "kind": "namespace",
+    "state": "Replaced"
+  },
+  "Windows.Graphics.Display": {
+    "value": "Microsoft.Graphics.Display",
+    "kind": "namespace",
+    "state": "Replaced"
+  },
+  "Windows.Networking.PushNotifications": {
+    "value": "Microsoft.Windows.PushNotifications",
+    "kind": "namespace",
+    "state": "Replaced"
+  },
+  "Windows.System": {
+    "value": "Microsoft.Windows.System",
+    "kind": "namespace",
+    "state": "Replaced"
+  },
+  "Windows.System.Power": {
+    "value": "Microsoft.Windows.System.Power",
+    "kind": "namespace",
+    "state": "Replaced"
+  },
+  "Microsoft.Toolkit.Uwp.UI.Animations": {
+    "value": "CommunityToolkit.WinUI.UI.Animations",
+    "kind": "namespace",
+    "state": "Replaced"
+  },
+  "Windows.UI.Colors": {
+    "value": "Microsoft.UI.Colors",
+    "kind": "namespace",
+    "state": "Replaced"
+  },
+  "Windows.UI.Composition": {
+    "value": "Microsoft.UI.Composition",
+    "kind": "namespace",
+    "state": "Replaced"
+  },
+  "Windows.UI.Composition.Core": {
+    "value": "Microsoft.UI.Composition.Core",
+    "kind": "namespace",
+    "state": "Replaced"
+  },
+  "Windows.UI.Composition.Diagnostics": {
+    "value": "Microsoft.UI.Composition.Diagnostics",
+    "kind": "namespace",
+    "state": "Replaced"
+  },
+  "Windows.UI.Composition.Effects": {
+    "value": "Microsoft.UI.Composition.Effects",
+    "kind": "namespace",
+    "state": "Replaced"
+  },
+  "Windows.UI.Composition.Interactions": {
+    "value": "Microsoft.UI.Composition.Interactions",
+    "kind": "namespace",
+    "state": "Replaced"
+  },
+  "Windows.UI.Composition.Scenes": {
+    "value": "Microsoft.UI.Composition.Scenes",
+    "kind": "namespace",
+    "state": "Replaced"
+  },
+  "Windows.UI.Input": {
+    "value": "Microsoft.UI.Input",
+    "kind": "namespace",
+    "state": "Replaced"
+  },
+  "Windows.UI.Text": {
+    "value": "Microsoft.UI.Text",
+    "kind": "namespace",
+    "state": "Replaced"
+  },
+  "Windows.UI.Xaml": {
+    "value": "Microsoft.UI.Xaml",
+    "kind": "namespace",
+    "state": "Replaced"
+  },
+  "Windows.UI.Xaml.Automation": {
+    "value": "Microsoft.UI.Xaml.Automation",
+    "kind": "namespace",
+    "state": "Replaced"
+  },
+  "Windows.UI.Xaml.Automation.Peers": {
+    "value": "Microsoft.UI.Xaml.Automation.Peers",
+    "kind": "namespace",
+    "state": "Replaced"
+  },
+  "Windows.UI.Xaml.Automation.Provider": {
+    "value": "Microsoft.UI.Xaml.Automation.Provider",
+    "kind": "namespace",
+    "state": "Replaced"
+  },
+  "Windows.UI.Xaml.Automation.Text": {
+    "value": "Microsoft.UI.Xaml.Automation.Text",
+    "kind": "namespace",
+    "state": "Replaced"
+  },
+  "Windows.UI.Xaml.Controls": {
+    "value": "Microsoft.UI.Xaml.Controls",
+    "kind": "namespace",
+    "state": "Replaced"
+  },
+  "Windows.UI.Xaml.Controls.Primitives": {
+    "value": "Microsoft.UI.Xaml.Controls.Primitives",
+    "kind": "namespace",
+    "state": "Replaced"
+  },
+  "Windows.UI.Xaml.Data": {
+    "value": "Microsoft.UI.Xaml.Data",
+    "kind": "namespace",
+    "state": "Replaced"
+  },
+  "Windows.UI.Xaml.Documents": {
+    "value": "Microsoft.UI.Xaml.Documents",
+    "kind": "namespace",
+    "state": "Replaced"
+  },
+  "Windows.UI.Xaml.Hosting": {
+    "value": "Microsoft.UI.Xaml.Hosting",
+    "kind": "namespace",
+    "state": "Replaced"
+  },
+  "Windows.UI.Xaml.Input": {
+    "value": "Microsoft.UI.Xaml.Input",
+    "kind": "namespace",
+    "state": "Replaced"
+  },
+  "Windows.UI.Xaml.Interop": {
+    "value": "Microsoft.UI.Xaml.Interop",
+    "kind": "namespace",
+    "state": "Replaced"
+  },
+  "Windows.UI.Xaml.Markup": {
+    "value": "Microsoft.UI.Xaml.Markup",
+    "kind": "namespace",
+    "state": "Replaced"
+  },
+  "Windows.UI.Xaml.Media": {
+    "value": "Microsoft.UI.Xaml.Media",
+    "kind": "namespace",
+    "state": "Replaced"
+  },
+  "Windows.UI.Xaml.Media.Animation": {
+    "value": "Microsoft.UI.Xaml.Media.Animation",
+    "kind": "namespace",
+    "state": "Replaced"
+  },
+  "Windows.UI.Xaml.Media.Imaging": {
+    "value": "Microsoft.UI.Xaml.Media.Imaging",
+    "kind": "namespace",
+    "state": "Replaced"
+  },
+  "Windows.UI.Xaml.Media.Media3D": {
+    "value": "Microsoft.UI.Xaml.Media.Media3D",
+    "kind": "namespace",
+    "state": "Replaced"
+  },
+  "Windows.UI.Xaml.Navigation": {
+    "value": "Microsoft.UI.Xaml.Navigation",
+    "kind": "namespace",
+    "state": "Replaced"
+  },
+  "Windows.UI.Xaml.Printing": {
+    "value": "Microsoft.UI.Xaml.Printing",
+    "kind": "namespace",
+    "state": "Replaced"
+  },
+  "Windows.UI.Xaml.Resources": {
+    "value": "Microsoft.UI.Xaml.Resources",
+    "kind": "namespace",
+    "state": "Replaced"
+  },
+  "Windows.UI.Xaml.Shapes": {
+    "value": "Microsoft.UI.Xaml.Shapes",
+    "kind": "namespace",
+    "state": "Replaced"
+  }
+}

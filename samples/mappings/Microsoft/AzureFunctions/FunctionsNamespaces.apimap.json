@@ -1,0 +1,6 @@
+{
+  "Microsoft.Azure.WebJobs.*": {
+    "kind": "namespace",
+    "state": "Removed"
+  }
+}

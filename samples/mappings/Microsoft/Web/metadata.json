@@ -1,0 +1,4 @@
+﻿{
+  "traits": "DotNetCoreWeb | ClassicWeb | ((SupportsSystemWeb | SystemWebReference) & {TargetFramework.Name=net} & {TargetFramework.Version<5.0})",
+  "order": 100
+}

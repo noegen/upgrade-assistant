@@ -1,0 +1,21 @@
+﻿{
+  "packages": [
+    {
+      "name": "EntityFramework",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [
+          {
+            "name": "EntityFramework",
+            "version": "6.4.4"
+          }
+        ],
+        ".NETStandard,Version=v2.0": [
+          {
+            "name": "EntityFramework",
+            "version": "6.4.4"
+          }
+        ]
+      }
+    }
+  ]
+}

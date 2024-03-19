@@ -1,0 +1,134 @@
+﻿{
+  "packages": [
+    {
+      "name": "Microsoft.CSharp"
+    },
+    {
+      "name": "PresentationCore"
+    },
+    {
+      "name": "PresentationFramework"
+    },
+    {
+      "name": "WindowsBase"
+    },
+    {
+      "name": "mscorlib"
+    },
+    {
+      "name": "System"
+    },
+    {
+      "name": "System.*"
+    },
+    {
+      "name": "Newtonsoft.Json",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [
+          {
+            "name": "Newtonsoft.Json"
+          }
+        ],
+        ".NETStandard,Version=v2.0": [
+          {
+            "name": "Newtonsoft.Json"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Microsoft.Tpl.Dataflow",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [
+          {
+            "name": "System.Threading.Tasks.Dataflow",
+            "version": "6.0.0"
+          }
+        ],
+        ".NETStandard,Version=v2.0": [
+          {
+            "name": "System.Threading.Tasks.Dataflow",
+            "version": "6.0.0"
+          }
+        ]
+      }
+    },
+    {
+      "name": "System.Configuration",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [
+          {
+            "name": "System.Configuration.ConfigurationManager"
+          }
+        ],
+        ".NETStandard,Version=v2.0": [
+          {
+            "name": "System.Configuration.ConfigurationManager"
+          }
+        ]
+      }
+    },
+    {
+      "name": "System.Data.Entity",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [
+          {
+            "name": "EntityFramework",
+            "version": "6.4.4"
+          }
+        ],
+        ".NETStandard,Version=v2.0": [
+          {
+            "name": "EntityFramework",
+            "version": "6.4.4"
+          }
+        ]
+      }
+    },
+    {
+      "name": "System.ServiceModel",
+      "frameworks": {
+        ".NETCoreApp,Version=v6.0": [
+          {
+            "name": "System.ServiceModel.Primitives"
+          },
+          {
+            "name": "System.ServiceModel.Http"
+          },
+          {
+            "name": "System.ServiceModel.Duplex"
+          },
+          {
+            "name": "System.ServiceModel.NetTcp"
+          },
+          {
+            "name": "System.ServiceModel.Security"
+          },
+          {
+            "name": "System.ServiceModel.Federation"
+          }
+        ],
+        ".NETStandard,Version=v2.0": [
+          {
+            "name": "System.ServiceModel.Primitives"
+          },
+          {
+            "name": "System.ServiceModel.Http"
+          },
+          {
+            "name": "System.ServiceModel.Duplex"
+          },
+          {
+            "name": "System.ServiceModel.NetTcp"
+          },
+          {
+            "name": "System.ServiceModel.Security"
+          },
+          {
+            "name": "System.ServiceModel.Federation"
+          }
+        ]
+      }
+    }
+  ]
+}

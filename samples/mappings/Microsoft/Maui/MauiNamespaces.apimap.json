@@ -1,0 +1,181 @@
+{
+  "Xamarin.Essentials": {
+    "kind": "namespace",
+    "state": "Removed"
+  },
+  "Xamarin.Forms.Markup": {
+    "kind": "namespace",
+    "state": "Removed"
+  },
+  "Xamarin.Forms.Markup.LeftToRight": {
+    "kind": "namespace",
+    "state": "Removed"
+  },
+  "Xamarin.Forms.Markup.RightToLeft": {
+    "kind": "namespace",
+    "state": "Removed"
+  },
+  "Xamarin.Internals": {
+    "kind": "namespace",
+    "state": "Removed"
+  },
+  "Xamarin.Forms": {
+    "value": "Microsoft.Maui;Microsoft.Maui.Controls",
+    "kind": "namespace",
+    "state": "Replaced"
+  },
+  "Xamarin.Forms.DualScreen": {
+    "value": "Microsoft.Maui.Controls.Foldable",
+    "kind": "namespace",
+    "state": "Replaced"
+  },
+  "Xamarin.Forms.Maps": {
+    "value": "Microsoft.Maui.Controls.Maps;Microsoft.Maui.Maps",
+    "kind": "namespace",
+    "state": "Replaced"
+  },
+  "Xamarin.Forms.Internals": {
+    "kind": "namespace",
+    "state": "Removed"
+  },
+  "Xamarin.Forms.PlatformConfiguration": {
+    "value": "Microsoft.Maui.Controls.PlatformConfiguration",
+    "kind": "namespace",
+    "state": "Replaced"
+  },
+  "Xamarin.Forms.Platform.Android": {
+    "value": "Microsoft.Maui.Controls.Platform;Microsoft.Maui.Controls.Handlers.Compatibility",
+    "kind": "namespace",
+    "state": "Replaced"
+  },
+  "Xamarin.Forms.Platform.iOS": {
+    "value": "Microsoft.Maui.Controls.Platform;Microsoft.Maui.Controls.Handlers.Compatibility",
+    "kind": "namespace",
+    "state": "Replaced"
+  },
+  "Xamarin.Forms.PlatformConfiguration.AndroidSpecific": {
+    "value": "Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific",
+    "kind": "namespace",
+    "state": "Replaced"
+  },
+  "Xamarin.Forms.PlatformConfiguration.AndroidSpecific.AppCompat": {
+    "value": "Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific.AppCompat",
+    "kind": "namespace",
+    "state": "Replaced"
+  },
+  "Xamarin.Forms.PlatformConfiguration.GTKSpecific": {
+    "value": "Microsoft.Maui.Contorls.PlatformConfiguration.GTKSpecific",
+    "kind": "namespace",
+    "state": "Replaced"
+  },
+  "Xamarin.Forms.PlatformConfiguration.iOSSpecific": {
+    "value": "Microsoft.Maui.Controls.PlatformConfiguration.iOSSpecific",
+    "kind": "namespace",
+    "state": "Replaced"
+  },
+  "Xamarin.Forms.PlatformConfiguration.macOSSpecific": {
+    "value": "Microsoft.Maui.Controls.PlatformConfiguration.macOSSpecific",
+    "kind": "namespace",
+    "state": "Replaced"
+  },
+  "Xamarin.Forms.PlatformConfiguration.TizenSpecific": {
+    "value": "Microsoft.Maui.Controls.PlatformConfiguration.TizenSpecific",
+    "kind": "namespace",
+    "state": "Replaced"
+  },
+  "Xamarin.Forms.PlatformConfiguration.WindowsSpecific": {
+    "value": "Microsoft.Maui.Controls.PlatformConfiguration.WindowsSpecific",
+    "kind": "namespace",
+    "state": "Replaced"
+  },
+  "Xamarin.Forms.Shapes": {
+    "value": "Microsoft.Maui.Controls.Shapes",
+    "kind": "namespace",
+    "state": "Replaced"
+  },
+  "Xamarin.Forms.StyleSheets": {
+    "value": "Microsoft.Maui.Controls.StyleSheets",
+    "kind": "namespace",
+    "state": "Replaced"
+  },
+  "Xamarin.Forms.Xaml": {
+    "value": "Microsoft.Maui.Controls.Xaml",
+    "kind": "namespace",
+    "state": "Replaced"
+  },
+  "Xamarin.Forms.Xaml.Diagnostics": {
+    "value": "Microsoft.Maui.Controls.Xaml.Diagnostics",
+    "kind": "namespace",
+    "state": "Replaced"
+  },
+  "Xamarin.Forms.Xaml.Internals": {
+    "value": "Microsoft.Maui.Controls.Internals",
+    "kind": "namespace",
+    "state": "Replaced"
+  },
+  "Xamarin.CommunityToolkit.Behaviors": {
+    "value": "CommunityToolkit.Maui.Behaviors;CommunityToolkit.Maui.Animations",
+    "kind": "namespace",
+    "state": "Replaced"
+  },
+  "Xamarin.CommunityToolkit.Behaviors.Internals": {
+    "value": "CommunityToolkit.Maui.Behaviors",
+    "kind": "namespace",
+    "state": "Replaced"
+  },
+  "Xamarin.CommunityToolkit.Converters": {
+    "value": "CommunityToolkit.Maui.Converters",
+    "kind": "namespace",
+    "state": "Replaced"
+  },
+  "Xamarin.CommunityToolkit.Core": {
+    "value": "CommunityToolkit.Maui.Core",
+    "kind": "namespace",
+    "state": "Replaced"
+  },
+  "Xamarin.CommunityToolkit.Effects": {
+    "value": "CommunityToolkit.Maui.Core",
+    "kind": "namespace",
+    "state": "Replaced"
+  },
+  "Xamarin.CommunityToolkit.Extensions": {
+    "value": "CommunityToolkit.Maui.Extensions",
+    "kind": "namespace",
+    "state": "Replaced"
+  },
+  "Xamarin.CommunityToolkit.Extensions.Internals": {
+    "value": "CommunityToolkit.Maui.Extensions",
+    "kind": "namespace",
+    "state": "Replaced"
+  },
+  "Xamarin.CommunityToolkit.Helpers": {
+    "value": "CommunityToolkit.Maui.Converters",
+    "kind": "namespace",
+    "state": "Replaced"
+  },
+  "Xamarin.CommunityToolkit.UI.Views": {
+    "value": "CommunityToolkit.Maui.Views;CommunityToolkit.Maui.Layouts;CommunityToolkit.Maui.Core;CommunityToolkit.Maui;CommunityToolkit.Maui.ImageSources;CommunityToolkit.Maui.Converters",
+    "kind": "namespace",
+    "state": "Replaced"
+  },
+  "SkiaSharp.Views.Forms": {
+    "value": "SkiaSharp.Views.Maui;SkiaSharp.Views.Maui.Controls",
+    "kind": "namespace",
+    "state": "Replaced"
+  },
+  "Xamarin.CommunityToolkit.Markup": {
+    "value": "CommunityToolkit.Maui.Markup",
+    "kind": "namespace",
+    "state": "Replaced"
+  },
+  "Xamarin.CommunityToolkit.Markup.LeftToRight": {
+    "value": "CommunityToolkit.Maui.Markup",
+    "kind": "namespace",
+    "state": "Replaced"
+  },
+  "Xamarin.CommunityToolkit.Markup.RightToLeft": {
+    "value": "CommunityToolkit.Maui.Markup",
+    "kind": "namespace",
+    "state": "Replaced"
+  }
+}

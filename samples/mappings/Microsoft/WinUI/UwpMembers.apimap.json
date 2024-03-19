@@ -1,0 +1,205 @@
+﻿{
+  "Windows.UI.WindowManagement.AppWindow.TryCreateAsync": {
+    "value": "Microsoft.UI.Windowing.AppWindow.Create",
+    "kind": "method",
+    "state": "Replaced",
+    "isStatic": true
+  },
+  "Window.Current": {
+    "value": "App.Window",
+    "kind": "property",
+    "state": "Replaced",
+    "isStatic":  true
+  },
+  "Windows.UI.WindowManagement.AppWindow.TryShowAsync": {
+    "value": "Microsoft.UI.Windowing.AppWindow.Show",
+    "kind": "method",
+    "state": "Replaced",
+    "isStatic": false
+  },
+  "Windows.UI.WindowManagement.AppWindow.CloseAsync": {
+    "value": "Microsoft.UI.Windowing.AppWindow.Destroy",
+    "kind": "method",
+    "state": "Replaced",
+    "isStatic": false
+  },
+  "Windows.UI.WindowManagement.AppWindow.GetPlacement": {
+    "value": "Microsoft.UI.Windowing.AppWindow.Position",
+    "kind": "property",
+    "state": "Replaced",
+    "documentationUrl": "https://docs.microsoft.com/en-us/windows/apps/windows-app-sdk/migrate-to-windows-app-sdk/guides/windowing#positioning-a-window"
+  },
+  "Windows.UI.WindowManagement.AppWindow.RequestMoveAdjacentToCurrentView": {
+    "value": "Microsoft.UI.Windowing.AppWindow.Move",
+    "kind": "method",
+    "state": "Replaced",
+    "isStatic": false,
+    "documentationUrl": "https://docs.microsoft.com/en-us/windows/apps/windows-app-sdk/migrate-to-windows-app-sdk/guides/windowing#positioning-a-window"
+  },
+  "Windows.UI.WindowManagement.AppWindow.RequestMoveAdjacentToWindow": {
+    "value": "Microsoft.UI.Windowing.AppWindow.Move",
+    "kind": "method",
+    "state": "Replaced",
+    "isStatic": false,
+    "documentationUrl": "https://docs.microsoft.com/en-us/windows/apps/windows-app-sdk/migrate-to-windows-app-sdk/guides/windowing#positioning-a-window"
+  },
+  "Windows.UI.WindowManagement.AppWindow.RequestMoveRelativeToCurrentViewContent": {
+    "value": "Microsoft.UI.Windowing.AppWindow.Move",
+    "kind": "method",
+    "state": "Replaced",
+    "isStatic": false,
+    "documentationUrl": "https://docs.microsoft.com/en-us/windows/apps/windows-app-sdk/migrate-to-windows-app-sdk/guides/windowing#positioning-a-window"
+  },
+  "Windows.UI.WindowManagement.AppWindow.RequestMoveRelativeToDisplayRegion": {
+    "value": "Microsoft.UI.Windowing.AppWindow.Move",
+    "kind": "method",
+    "state": "Replaced",
+    "isStatic": false,
+    "documentationUrl": "https://docs.microsoft.com/en-us/windows/apps/windows-app-sdk/migrate-to-windows-app-sdk/guides/windowing#positioning-a-window"
+  },
+  "Windows.UI.WindowManagement.AppWindow.RequestMoveRelativeToWindowContent": {
+    "value": "Microsoft.UI.Windowing.AppWindow.Move",
+    "kind": "method",
+    "state": "Replaced",
+    "isStatic": false,
+    "documentationUrl": "https://docs.microsoft.com/en-us/windows/apps/windows-app-sdk/migrate-to-windows-app-sdk/guides/windowing#positioning-a-window"
+  },
+  "Windows.UI.WindowManagement.AppWindow.RequestMoveToDisplayRegion": {
+    "value": "Microsoft.UI.Windowing.AppWindow.Move",
+    "kind": "method",
+    "state": "Replaced",
+    "isStatic": false,
+    "documentationUrl": "https://docs.microsoft.com/en-us/windows/apps/windows-app-sdk/migrate-to-windows-app-sdk/guides/windowing#positioning-a-window"
+  },
+  "Windows.UI.Core.CoreWindow.GetForCurrentThread": {
+    "value": "Microsoft.UI.Windowing.AppWindow.Create",
+    "kind": "method",
+    "state": "Replaced",
+    "isStatic": true,
+    "documentationUrl": "https://docs.microsoft.com/en-us/windows/apps/windows-app-sdk/migrate-to-windows-app-sdk/guides/windowing"
+  },
+  "Windows.Security.Credentials.UI.UserConsentVerifier.RequestVerificationAsync": {
+    "value": "Windows.Security.Credentials.UI.UserConsentVerifierInterop.RequestVerificationForWindowAsync",
+    "kind": "method",
+    "state": "Replaced",
+    "isAsync": true,
+    "isStatic": true
+  },
+  "Windows.ApplicationModel.DataTransfer.DragDrop.Core.CoreDragDropManager.GetForCurrentView": {
+    "value": "Windows.ApplicationModel.DataTransfer.DragDrop.Core.DragDropManagerInterop.GetForWindow",
+    "kind": "method",
+    "state": "Replaced",
+    "isStatic": true
+  },
+  "Windows.UI.ViewManagement.InputPane.GetForCurrentView": {
+    "value": "Windows.UI.ViewManagement.InputPaneInterop.GetForWindow",
+    "kind": "method",
+    "state": "Replaced",
+    "isStatic": true
+  },
+  "Windows.Graphics.Printing.PrintManager.GetForCurrentView": {
+    "kind": "method",
+    "state": "Removed",
+    "needsManualUpgrade": true,
+    "documentationUrl": "https://docs.microsoft.com/en-us/windows/apps/windows-app-sdk/migrate-to-windows-app-sdk/what-is-supported"
+  },
+  "Windows.Media.PlayTo.PlayToManager.GetForCurrentView": {
+    "value": "Windows.Media.PlayTo.PlayToManagerInterop.GetForWindow",
+    "kind": "method",
+    "state": "Replaced",
+    "isStatic": true
+  },
+  "Windows.Media.PlayTo.PlayToManager.ShowPlayToUI": {
+    "value": "Windows.Media.PlayTo.PlayToManagerInterop.ShowPlayToUIForWindow",
+    "kind": "method",
+    "state": "Replaced",
+    "isStatic": true
+  },
+  "Windows.UI.Input.RadialControllerConfiguration.GetForCurrentView": {
+    "value": "Windows.UI.Input.RadialControllerConfigurationInterop.GetForWindow",
+    "kind": "method",
+    "state": "Replaced",
+    "isStatic": true
+  },
+  "Windows.UI.Input.Spatial.SpatialInteractionManager.GetForCurrentView": {
+    "value": "Windows.UI.Input.Spatial.SpatialInteractionManagerInterop.GetForWindow",
+    "kind": "method",
+    "state": "Replaced",
+    "isStatic": true
+  },
+  "Windows.Media.SystemMediaTransportControls.GetForCurrentView": {
+    "value": "Windows.Media.SystemMediaTransportControlsInterop.GetForWindow",
+    "kind": "method",
+    "state": "Replaced",
+    "isStatic": true
+  },
+  "Windows.UI.ViewManagement.UIViewSettings.GetForCurrentView": {
+    "value": "Windows.UI.ViewManagement.UIViewSettingsInterop.GetForWindow",
+    "kind": "method",
+    "state": "Replaced",
+    "isStatic": true
+  },
+  "Windows.UI.ApplicationSettings.AccountsSettingsPane.GetForCurrentView": {
+    "value": "Windows.UI.ViewManagement.AccountsSettingsPaneInterop.GetForWindow",
+    "kind": "method",
+    "state": "Replaced",
+    "isStatic": true
+  },
+  "Windows.UI.ApplicationSettings.AccountsSettingsPane.Show": {
+    "value": "Windows.UI.ViewManagement.AccountsSettingsPaneInterop.ShowAddAccountForWindowAsync",
+    "kind": "method",
+    "state": "Replaced",
+    "isAsync": true,
+    "isStatic": true
+  },
+  "Windows.UI.ApplicationSettings.AccountsSettingsPane.ShowAddAccountAsync": {
+    "value": "Windows.UI.ViewManagement.AccountsSettingsPaneInterop.ShowAddAccountForWindowAsync",
+    "kind": "method",
+    "state": "Replaced",
+    "isAsync": true,
+    "isStatic": true
+  },
+  "Windows.UI.ApplicationSettings.AccountsSettingsPane.ShowManageAccountsAsync": {
+    "value": "Windows.UI.ViewManagement.AccountsSettingsPaneInterop.ShowManageAccountsForWindowAsync",
+    "kind": "method",
+    "state": "Replaced",
+    "isAsync": true,
+    "isStatic": true
+  },
+  "Windows.UI.ApplicationSettings.AccountsSettingsPane.ShowAddAccountForUserAsync": {
+    "kind": "method",
+    "state": "Removed",
+    "needsManualUpgrade": true,
+    "documentationUrl": "https://docs.microsoft.com/en-us/windows/apps/windows-app-sdk/migrate-to-windows-app-sdk/what-is-supported"
+  },
+  "Windows.UI.ApplicationSettings.AccountsSettingsPane.ShowManageAccountsForUserAsync": {
+    "kind": "method",
+    "state": "Removed",
+    "needsManualUpgrade": true,
+    "documentationUrl": "https://docs.microsoft.com/en-us/windows/apps/windows-app-sdk/migrate-to-windows-app-sdk/what-is-supported"
+  },
+  "Windows.UI.Xaml.Window.Current.Dispatcher": {
+    "kind": "property",
+    "state": "Replaced",
+    "needsManualUpgrade": true,
+    "messageId": "ApiReplacedCommentWithUrl",
+    "messageParams": [ "Windows.UI.Core.CoreDispatcher", "DispatcherQueue", "https://docs.microsoft.com/en-us/windows/apps/windows-app-sdk/migrate-to-windows-app-sdk/guides/threading" ],
+    "documentationUrl": "https://docs.microsoft.com/en-us/windows/apps/windows-app-sdk/migrate-to-windows-app-sdk/guides/threading"
+  },
+  "Windows.UI.Xaml.Window.Dispatcher": {
+    "kind": "property",
+    "state": "Replaced",
+    "needsManualUpgrade": true,
+    "messageId": "ApiReplacedCommentWithUrl",
+    "messageParams": [ "Windows.UI.Core.CoreDispatcher", "DispatcherQueue", "https://docs.microsoft.com/en-us/windows/apps/windows-app-sdk/migrate-to-windows-app-sdk/guides/threading" ],
+    "documentationUrl": "https://docs.microsoft.com/en-us/windows/apps/windows-app-sdk/migrate-to-windows-app-sdk/guides/threading"
+  },
+  "Windows.UI.Xaml.Media.AcrylicBrush.BackgroundSource": {
+    "kind": "property",
+    "state": "Removed",
+    "needsManualUpgrade": true,
+    "messageId": "AcrylicBrushMessage",
+    "messageParams": [ "AcrylicBrush.BackgroundSource", "https://docs.microsoft.com/en-us/windows/apps/windows-app-sdk/migrate-to-windows-app-sdk/what-is-supported" ],
+    "documentationUrl": "https://docs.microsoft.com/en-us/windows/apps/windows-app-sdk/migrate-to-windows-app-sdk/what-is-supported"
+  }
+}
