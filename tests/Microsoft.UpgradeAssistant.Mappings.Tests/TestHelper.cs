@@ -3,7 +3,6 @@
 
 namespace Microsoft.UpgradeAssistant.Mappings.Tests;
 
-[SetUpFixture]
 static class TestHelper
 {
     public static readonly string MappingsDir;

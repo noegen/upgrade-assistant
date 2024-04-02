@@ -3,11 +3,13 @@
 
 using System.Text.Json;
 
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+
 namespace Microsoft.UpgradeAssistant.Mappings.Tests;
 
 public partial class ValidationTests
 {
-    [Test]
+    [TestMethod]
     public void ValidatePackageMaps()
     {
         var options = new JsonSerializerOptions(JsonSerializerDefaults.Web)

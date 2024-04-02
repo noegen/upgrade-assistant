@@ -3,11 +3,13 @@
 
 using System.Text.Json;
 
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+
 namespace Microsoft.UpgradeAssistant.Mappings.Tests;
 
 public partial class ValidationTests
 {
-    [Test]
+    [TestMethod]
     public void ValidateMetadataFiles()
     {
         var options = new JsonSerializerOptions(JsonSerializerDefaults.Web)
@@ -68,8 +70,8 @@ public partial class ValidationTests
             else if (property.NameEquals("order"))
             {
                 AssertPropertyType(relativePath, string.Empty, property, JsonValueKind.Number);
-                Assert.That(property.Value.TryGetInt32(out int order), Is.True, $"Failed to parse \"{property.Name}\" property in `{relativePath}': {property}");
-                Assert.That(order, Is.GreaterThanOrEqualTo(0), $"`{relativePath}' - [\"{property.Name}\"] must be greater than or equal to 0.");
+                Assert.IsTrue(property.Value.TryGetInt32(out int order), $"Failed to parse \"{property.Name}\" property in `{relativePath}': {property}");
+                Assert.IsTrue(order >= 0, $"`{relativePath}' - [\"{property.Name}\"] must be greater than or equal to 0.");
             }
             else
             {

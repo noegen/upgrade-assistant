@@ -3,6 +3,8 @@
 
 using System.Text.Json;
 
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+
 namespace Microsoft.UpgradeAssistant.Mappings.Tests;
 
 public partial class ValidationTests
@@ -10,7 +12,7 @@ public partial class ValidationTests
     private static readonly string[] Kinds = new string[] { "property", "method", "namespace", "type" };
     private static readonly string[] States = new string[] { "NotImplemented", "Removed", "Replaced" };
 
-    [Test]
+    [TestMethod]
     public void ValidateApiMaps()
     {
         var options = new JsonSerializerOptions(JsonSerializerDefaults.Web)
@@ -52,15 +54,15 @@ public partial class ValidationTests
         {
             var entry = mapping.Value;
 
-            Assert.That(entry.Kind, Is.Not.Null, $"`{relativePath}' - [\"{mapping.Key}\"][\"kind\"] cannot be null.");
-            Assert.That(entry.Kind.ToLowerInvariant(), Is.AnyOf(Kinds), $"`{relativePath}' - [\"{mapping.Key}\"][\"kind\"] must be one of: {string.Join(", ", Kinds)}");
+            Assert.IsNotNull(entry.Kind, $"`{relativePath}' - [\"{mapping.Key}\"][\"kind\"] cannot be null.");
+            Assert.IsTrue(Kinds.Contains(entry.Kind.ToLowerInvariant()), $"`{relativePath}' - [\"{mapping.Key}\"][\"kind\"] must be one of: {string.Join(", ", Kinds)}");
 
-            Assert.That(entry.State, Is.Not.Null, $"`{relativePath}' - [\"{mapping.Key}\"][\"state\"] cannot be null.");
-            Assert.That(entry.State, Is.AnyOf(States), $"`{relativePath}' - [\"{mapping.Key}\"][\"state\"] must be one of: {string.Join(", ", States)}");
+            Assert.IsNotNull(entry.State, $"`{relativePath}' - [\"{mapping.Key}\"][\"state\"] cannot be null.");
+            Assert.IsTrue(States.Contains(entry.State), $"`{relativePath}' - [\"{mapping.Key}\"][\"state\"] must be one of: {string.Join(", ", States)}");
 
             if (entry.Value != null)
             {
-                Assert.That(entry.Value, Is.Not.Empty, $"`{relativePath}' - [\"{mapping.Key}\"][\"value\"] cannot be empty.");
+                Assert.IsFalse(string.IsNullOrEmpty(entry.Value), $"`{relativePath}' - [\"{mapping.Key}\"][\"value\"] cannot be empty.");
             }
         }
     }

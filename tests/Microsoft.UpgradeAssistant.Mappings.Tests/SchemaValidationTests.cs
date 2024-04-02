@@ -3,12 +3,14 @@
 
 using System.Text.Json;
 
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+
 namespace Microsoft.UpgradeAssistant.Mappings.Tests;
 
-[TestFixture]
+[TestClass]
 public partial class ValidationTests
 {
-    [Test]
+    [TestMethod]
     public void ValidateSchemas()
     {
         var options = new JsonSerializerOptions(JsonSerializerDefaults.Web)
@@ -43,7 +45,7 @@ public partial class ValidationTests
 
     private static void AssertElementType(string relativePath, string elementPath, JsonElement element, JsonValueKind expectedKind)
     {
-        Assert.That(element.ValueKind, Is.EqualTo(expectedKind), $"The {elementPath} element in `{relativePath}' is expected to be a {expectedKind.ToString().ToLowerInvariant()}.");
+        Assert.AreEqual(expectedKind, element.ValueKind, $"The {elementPath} element in `{relativePath}' is expected to be a {expectedKind.ToString().ToLowerInvariant()}.");
     }
 
     private static string GetPropertyPath(string elementPath, JsonProperty property)
@@ -55,14 +57,14 @@ public partial class ValidationTests
     {
         var propertyPath = GetPropertyPath(elementPath, property);
 
-        Assert.That(property.Value.ValueKind, Is.EqualTo(expectedKind), $"The {propertyPath} property in `{relativePath}' is expected to be a {expectedKind.ToString().ToLowerInvariant()}.");
+        Assert.AreEqual(expectedKind, property.Value.ValueKind, $"The {propertyPath} property in `{relativePath}' is expected to be a {expectedKind.ToString().ToLowerInvariant()}.");
     }
 
     private static void AssertPropertyTypeIsBoolean(string relativePath, string elementPath, JsonProperty property)
     {
         var propertyPath = GetPropertyPath(elementPath, property);
 
-        Assert.That(property.Value.ValueKind, Is.AnyOf(JsonValueKind.True, JsonValueKind.False), $"The {propertyPath} property in `{relativePath}' is expected to be a boolean.");
+        Assert.IsTrue(property.Value.ValueKind == JsonValueKind.True || property.Value.ValueKind == JsonValueKind.False, $"The {propertyPath} property in `{relativePath}' is expected to be a boolean.");
     }
 
     private static void AssertUnknownProperty(string relativePath, string elementPath, JsonProperty property)
