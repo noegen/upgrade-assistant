@@ -22,6 +22,8 @@
   <ItemGroup>
     <Content Include="mappings\**\*.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <PackagePath>content/mappings</PackagePath>
+      <Pack>True</Pack>
     </Content>
   </ItemGroup>
 
