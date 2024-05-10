@@ -12,8 +12,9 @@ and its [CLI](https://www.nuget.org/packages/upgrade-assistant#versions-body-tab
 
 ## Overview
 
-This project aims to bring extensibility to the dotnet Upgrade Assistant tool via [Package Maps](docs/Extensibility.PackageMaps.md) and [API Maps](docs/Extensibility.APIMaps.md), allowing
-third-party vendors to provide the necessary information needed to upgrade projects from old versions of .NET and/or old vendor APIs to a newer version.
+This project aims to bring extensibility to the dotnet Upgrade Assistant tool. One of the extensibility points are mappings such as [Package Maps](docs/Extensibility.PackageMaps.md)
+and [API Maps](docs/Extensibility.APIMaps.md), allowing third-party vendors to provide the necessary information needed to upgrade projects from old versions of .NET and/or old
+vendor APIs to a newer version.
 
 ### Supported project types and languages
 
