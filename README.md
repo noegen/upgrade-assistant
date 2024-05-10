@@ -31,7 +31,9 @@ The tool supports C# and Visual Basic projects.
 
 ### Extensibility
 
-#### Directory Structure
+#### Mappings Extension
+
+##### Directory Structure
 
 In the [src/Microsoft.UpgradeAssistant.Mappings/mappings](src/Microsoft.UpgradeAssistant.Mappings/mappings) directory, each vendor *SHOULD* create their own subdirectory.
 Each vendor *MAY* decide to subdivide their vendor-specific subdirectory into further subdirectories based on product names or any other criteria that makes sense for
@@ -42,7 +44,7 @@ For example, the [sample mappings directory](samples/mappings) contains a subdir
 
 Nested in these subdirectories are 3 types of files: *metadata.json*, *packagemap.json*, and *apimap.json*.
 
-#### metadata.json
+##### metadata.json
 
 Whether you want to provide mappings for NuGet package upgrades or API changes, you'll want to have a **metadata.json** file.
 
@@ -58,7 +60,7 @@ The *metadata.json* file should look something like this:
 The *traits* and *order* metadata in *metadata.json* files are automatically inherited by any *packagemap.json* and *apimap.json* files that exist
 in the same directory or any subdirectory (regardless of subdirectiory depth).
 
-##### The "traits" property
+###### The "traits" property
 
 The *traits* property is a string that defines in what circumstances the Upgrade Assistant should apply the package mappings and/or API mappings.
 
@@ -67,13 +69,13 @@ or `(Xamarin | Maui)`.
 
 More information about traits can be found [here](docs/Traits.md).
 
-##### The "order" property
+###### The "order" property
 
 The *order* property is an integer value that is used for the purposes of sorting the order in which package mapping changes and API mapping changes are applied.
 
 We recommend a starting value of *1000* for vendor-specific mappings.
 
-#### Package Maps
+##### Package Maps
 
 Package Maps define how a NuGet package reference in a project can be upgraded to reference either an alternative NuGet package or a newer version of the same
 NuGet package.
@@ -128,7 +130,7 @@ Below is an example *packagemap.json* file with comments that explain some of th
 It is also worth noting that in the above example, when the Upgrade Assistant is upgrading a project to .NET 8.0, it will upgrade references to `Vendor.ProductName` to
 `Vendor.ProductName.Abstractions` *and* `Vendor.ProductName.Core`. This is useful in scenarios where a package has been broken into multiple packages.
 
-#### API Maps
+##### API Maps
 
 API Maps define how the Upgrade Assistant should transform namespaces, type names, method names and property names in user-code when upgrading a project.
 
