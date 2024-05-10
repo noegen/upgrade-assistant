@@ -17,7 +17,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\samples\Samples.csproj" />
-    <ProjectReference Include="..\..\src\Microsoft.UpgradeAssistant.Mappings\Microsoft.UpgradeAssistant.Mappings.csproj" />
+    <ProjectReference Include="..\..\src\UpgradeAssistant.Mappings\UpgradeAssistant.Mappings.csproj" />
   </ItemGroup>
 
 </Project>

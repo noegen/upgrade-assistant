@@ -25,8 +25,7 @@ Currently, the tool supports the following project types:
 - Console app
 - Libraries
 - UWP to Windows App SDK (WinUI)
-- Xamarin.Forms
-- MAUI
+- Xamarin.Forms to .NET MAUI
 
 The tool supports C# and Visual Basic projects.
 

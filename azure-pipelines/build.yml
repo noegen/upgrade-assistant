@@ -72,11 +72,11 @@ extends:
         - task: NuGetCommand@2
           displayName: NuGet restore
           inputs:
-            solution: Microsoft.UpgradeAssistant.Mappings.sln
+            solution: UpgradeAssistant.Extensions.sln
         - task: VSBuild@1
-          displayName: Build Microsoft.UpgradeAssistant.Mappings.sln
+          displayName: Build UpgradeAssistant.Extensions.sln
           inputs:
-            solution: Microsoft.UpgradeAssistant.Mappings.sln
+            solution: UpgradeAssistant.Extensions.sln
             platform: Any CPU
             configuration: Release
             clean: true
@@ -90,6 +90,6 @@ extends:
         - task: VSBuild@1
           displayName: Build Mappings NuGet package
           inputs:
-            solution: src\Microsoft.UpgradeAssistant.Mappings\Microsoft.UpgradeAssistant.Mappings.csproj
+            solution: src\UpgradeAssistant.Mappings\UpgradeAssistant.Mappings.csproj
             msbuildArgs: /t:Pack /p:PackageOutputPath="$(Build.ArtifactStagingDirectory)\Packages" /p:TimestampPackage=$(TimestampPackage) 
             configuration: Release
